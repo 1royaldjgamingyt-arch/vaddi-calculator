@@ -19,21 +19,27 @@ android {
   }
 
   signingConfigs {
-    create("release") {
-      val keystorePath = System.getenv("KEYSTORE_PATH") ?: "${rootDir}/my-upload-key.jks"
-      val keystoreFile = file(keystorePath)
-      if (keystoreFile.exists()) {
-        storeFile = keystoreFile
-        storePassword = System.getenv("KEYSTORE_PASSWORD") ?: System.getenv("STORE_PASSWORD")
-        keyAlias = System.getenv("KEY_ALIAS") ?: "upload"
-        keyPassword = System.getenv("KEY_PASSWORD") ?: System.getenv("KEYSTORE_PASSWORD")
+    getByName("debug") {
+      val localDebugKeystore = file("${rootDir}/debug.keystore")
+      if (localDebugKeystore.exists()) {
+        storeFile = localDebugKeystore
+        storePassword = "android"
+        keyAlias = "androiddebugkey"
+        keyPassword = "android"
       }
     }
-    create("debugConfig") {
-      storeFile = file("${rootDir}/debug.keystore")
-      storePassword = "android"
-      keyAlias = "androiddebugkey"
-      keyPassword = "android"
+    create("release") {
+      val keystoreFilePath = System.getenv("KEYSTORE_FILE") ?: System.getenv("KEYSTORE_PATH")
+      val keystorePassword = System.getenv("KEYSTORE_PASSWORD")
+      val keyAliasVal = System.getenv("KEY_ALIAS")
+      val keyPasswordVal = System.getenv("KEY_PASSWORD")
+
+      if (!keystoreFilePath.isNullOrBlank() && file(keystoreFilePath).exists()) {
+        storeFile = file(keystoreFilePath)
+        storePassword = keystorePassword
+        keyAlias = keyAliasVal
+        keyPassword = keyPasswordVal
+      }
     }
   }
 
@@ -47,7 +53,9 @@ android {
         signingConfig = releaseSigning
       }
     }
-    debug { signingConfig = signingConfigs.getByName("debugConfig") }
+    debug {
+      signingConfig = signingConfigs.getByName("debug")
+    }
   }
   compileOptions {
     sourceCompatibility = JavaVersion.VERSION_17
