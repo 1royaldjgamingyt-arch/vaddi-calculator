@@ -1,0 +1,177 @@
+<resources>
+    <string name="app_name">সুদ ক্যালকুলেটর</string>
+    <string name="app_tagline">সহজ এবং নির্ভুল সুদ ক্যালকুলেটর</string>
+
+    <!-- Navigation -->
+    <string name="nav_quick_vaddi">দ্রুত সুদ</string>
+    <string name="nav_date_vaddi">তারিখ সুদ</string>
+    <string name="nav_calculator">ক্যালকুলেটর</string>
+    <string name="nav_history">ইতিহাস</string>
+    <string name="nav_settings">সেটিংস</string>
+
+    <!-- Calculator Modes -->
+    <string name="mode_quick">দ্রুত ক্যালকুলেটর</string>
+    <string name="mode_quick_desc">সময়কাল অনুযায়ী গণনা করুন (মাস / বছর / দিন)</string>
+    <string name="mode_date">তারিখ ক্যালকুলেটর</string>
+    <string name="mode_date_desc">দুটি ক্যালেন্ডার তারিখের মধ্যে সুদ হিসাব করুন</string>
+
+    <!-- Schemes -->
+    <string name="scheme_simple">সরল সুদ</string>
+    <string name="scheme_compound">চক্রবৃদ্ধি সুদ</string>
+
+    <!-- Form Labels & Placeholders -->
+    <string name="label_principal">মূলধন / আসল টাকা</string>
+    <string name="hint_principal">1,00,000</string>
+    <string name="label_interest_rate">সুদের হার</string>
+    <string name="hint_interest_rate">2</string>
+    <string name="label_interest_type">সুদের ধরন</string>
+    <string name="label_duration">সময়কাল</string>
+    <string name="hint_duration">6</string>
+
+    <!-- Interest Types -->
+    <string name="type_monthly">প্রতি মাসে</string>
+    <string name="type_yearly">প্রতি বছরে</string>
+    <string name="type_daily">প্রতিদিন</string>
+
+    <!-- Rate display badges -->
+    <string name="rate_badge_monthly">%1$s%% প্রতি মাসে</string>
+    <string name="rate_badge_yearly">%1$s%% প্রতি বছরে</string>
+    <string name="rate_badge_daily">%1$s%% প্রতিদিন</string>
+
+    <!-- Dynamic Duration Units -->
+    <string name="duration_unit_monthly">মাস</string>
+    <string name="duration_unit_yearly">বছর</string>
+    <string name="duration_unit_daily">দিন</string>
+
+    <string name="unit_months">মাস</string>
+    <string name="unit_years">বছর</string>
+    <string name="unit_days">দিন</string>
+
+    <!-- Helper text -->
+    <string name="vaddi_helper_text">উদাহরণ: ₹১,০০,০০০ টাকায় ২% প্রতি মাসে = ₹২,০০০ সুদ/মাস</string>
+
+    <!-- Date Selection -->
+    <string name="label_start_date">শুরুর তারিখ</string>
+    <string name="label_end_date">শেষের তারিখ</string>
+    <string name="select_date">তারিখ নির্বাচন করুন</string>
+    <string name="date_calc_title">তারিখ সুদ ক্যালকুলেটর</string>
+    <string name="date_calc_subtitle">দুটি তারিখের মধ্যে নির্ভুল সুদ গণনা</string>
+    <string name="date_completed_months">সম্পূর্ণ মাস</string>
+    <string name="date_remaining_days">অবশিষ্ট দিন</string>
+    <string name="date_total_days">মোট দিন</string>
+    <string name="date_calc_method_title">গণনার বিবরণ</string>
+
+    <!-- Actions -->
+    <string name="btn_calculate">গণনা করুন</string>
+    <string name="btn_recalculate">পুনরায় গণনা করুন</string>
+    <string name="btn_clear">রিসেট</string>
+    <string name="btn_share">শেয়ার করুন</string>
+    <string name="btn_save">সংরক্ষণ করুন</string>
+    <string name="btn_saved">সংরক্ষিত হয়েছে</string>
+    <string name="btn_delete">মুছুন</string>
+    <string name="btn_clear_all">সব মুছুন</string>
+    <string name="btn_confirm">নিশ্চিত করুন</string>
+    <string name="btn_cancel">বাতিল করুন</string>
+    <string name="btn_close">বন্ধ করুন</string>
+    <string name="btn_continue">এগিয়ে যান</string>
+    <string name="btn_understood">বুঝেছি</string>
+    <string name="btn_agree">আমি সম্মত</string>
+    <string name="btn_open_in_calc">ক্যালকুলেটরে খুলুন</string>
+
+    <!-- Result Card -->
+    <string name="title_result">গণনার ফলাফল</string>
+    <string name="result_principal">মূলধন</string>
+    <string name="result_rate">সুদের হার</string>
+    <string name="result_duration">সময়কাল</string>
+    <string name="result_monthly_vaddi">মাসিক সুদ</string>
+    <string name="result_interest">মোট সুদ</string>
+    <string name="result_total">মোট প্রদেয় টাকা</string>
+    <string name="result_total_payable">মোট প্রদেয় টাকা</string>
+    <string name="result_period">সময়কাল</string>
+    <string name="result_breakdown">গণনার বিবরণ</string>
+    <string name="result_formula">সূত্র</string>
+    <string name="result_daily_interest">দৈনিক সুদ</string>
+    <string name="result_monthly_interest">মাসিক সুদ</string>
+    <string name="result_total_days">মোট দিন</string>
+    <string name="duration_breakdown">সময়কালের বিবরণ</string>
+
+    <!-- Validation Errors -->
+    <string name="err_principal_empty">অনুগ্রহ করে মূলধনের পরিমাণ লিখুন</string>
+    <string name="err_principal_invalid">মূলধন শূন্যের চেয়ে বেশি হতে হবে</string>
+    <string name="err_rate_empty">অনুগ্রহ করে সুদের হার লিখুন</string>
+    <string name="err_rate_invalid">সুদের হার শূন্যের চেয়ে বেশি হতে হবে</string>
+    <string name="err_duration_empty">অনুগ্রহ করে সময়কাল লিখুন</string>
+    <string name="err_duration_invalid">সময়কাল শূন্যের চেয়ে বেশি হতে হবে</string>
+    <string name="err_date_order">শেষের তারিখ শুরুর তারিখের আগে হতে পারে না</string>
+
+    <!-- History Screen -->
+    <string name="title_history">ইতিহাস</string>
+    <string name="history_empty_title">কোনো রেকর্ড নেই</string>
+    <string name="history_empty_desc">আপনার সমস্ত সুদ গণনার ফলাফল এখানে সংরক্ষিত থাকবে।</string>
+    <string name="history_saved_toast">ফলাফল ইতিহাসে সংরক্ষিত হয়েছে</string>
+    <string name="history_cleared_toast">সমস্ত ইতিহাস মুছে ফেলা হয়েছে</string>
+    <string name="dialog_delete_title">রেকর্ড মুছবেন?</string>
+    <string name="dialog_delete_desc">আপনি কি এই গণনা রেকর্ডটি মুছে ফেলতে চান?</string>
+    <string name="dialog_clear_all_title">সমস্ত ইতিহাস মুছবেন?</string>
+    <string name="dialog_clear_all_desc">সংরক্ষিত সমস্ত রেকর্ড মুছে যাবে। এটি ফিরিয়ে আনা যাবে না।</string>
+    <string name="dialog_history_detail_title">গণনার বিবরণ</string>
+    <string name="detail_period">সময়কাল: %1$s থেকে %2$s</string>
+
+    <!-- First Launch Language Selection -->
+    <string name="language_select_title">আপনার ভাষা বেছে নিন</string>
+    <string name="language_select_subtitle">সুদ গণনার জন্য আপনার পছন্দের ভাষা নির্বাচন করুন। সেটিংসে এটি যেকোনো সময় পরিবর্তন করতে পারেন।</string>
+
+    <!-- Settings Screen -->
+    <string name="title_settings">সেটিংস</string>
+    <string name="section_preferences">পছন্দসমূহ</string>
+    <string name="setting_language">ভাষা</string>
+    <string name="setting_theme">থিম</string>
+    <string name="theme_system">সিস্টেম ডিফল্ট</string>
+    <string name="theme_light">লাইট থিম</string>
+    <string name="theme_dark">ডার্ক থিম</string>
+    <string name="setting_currency">মুদ্রা প্রতীক</string>
+    <string name="currency_inr">₹ ভারতীয় রুপি (INR)</string>
+    <string name="currency_usd">$ মার্কিন ডলার (USD)</string>
+    <string name="currency_eur">€ ইউরো (EUR)</string>
+    <string name="currency_gbp">£ ব্রিটিশ পাউন্ড (GBP)</string>
+    <string name="section_storage">ডেটা ও স্টোরেজ</string>
+    <string name="setting_clear_history">সমস্ত ইতিহাস মুছুন</string>
+    <string name="setting_clear_history_sub">স্থানীয় স্টোরেজ থেকে সমস্ত গণনা মুছে ফেলুন</string>
+    <string name="section_about">তথ্য ও আইনি</string>
+    <string name="about_privacy">গোপনীয়তা নীতি</string>
+    <string name="about_terms">ব্যবহারের শর্তাবলী</string>
+    <string name="about_version">সংস্করণ</string>
+    <string name="about_offline_badge">১০০% অফলাইন এবং নিরাপদ</string>
+    <string name="about_offline_desc">সমস্ত তথ্য কেবল আপনার ফোনেই থাকে। কোনো লগইন বা ইন্টারনেটের প্রয়োজন নেই।</string>
+
+    <!-- Privacy Policy Dialog -->
+    <string name="privacy_title">গোপনীয়তা নীতি</string>
+    <string name="privacy_updated">সর্বশেষ আপডেট: ২০২৬</string>
+    <string name="privacy_sec1_title">১. শূন্য ব্যক্তিগত ডেটা সংগ্রহ</string>
+    <string name="privacy_sec1_desc">সুদ ক্যালকুলেটর আপনার গোপনীয়তা রক্ষা করতে প্রতিশ্রুতিবদ্ধ। আমরা কোনো ব্যক্তিগত বা আর্থিক তথ্য সংগ্রহ করি না।</string>
+    <string name="privacy_sec2_title">২. ১০০% অফলাইন ব্যবস্থা</string>
+    <string name="privacy_sec2_desc">সমস্ত গণনার তথ্য শুধুমাত্র আপনার ফোনের স্টোরেজে সংরক্ষিত থাকে।</string>
+    <string name="privacy_sec3_title">৩. কোনো অপ্রয়োজনীয় অনুমতি নেই</string>
+    <string name="privacy_sec3_desc">অ্যাপটি ক্যামেরা, কনট্যাক্টস বা লোকেশনের মতো কোনো অনুমতির প্রয়োজন হয় না।</string>
+    <string name="privacy_sec4_title">৪. সম্পূর্ণ ব্যবহারকারী নিয়ন্ত্রণ</string>
+    <string name="privacy_sec4_desc">সেটিংস থেকে আপনি যেকোনো সময় সমস্ত ইতিহাস মুছে ফেলতে পারেন।</string>
+
+    <!-- Terms of Use Dialog -->
+    <string name="terms_title">ব্যবহারের শর্তাবলী</string>
+    <string name="terms_sec1_title">১. শুধুমাত্র তথ্যগত উদ্দেশ্যে</string>
+    <string name="terms_sec1_desc">সুদ ক্যালকুলেটর একটি গাণিতিক হিসাবের সরঞ্জাম। এটি কোনো আইনি বা আর্থিক পরামর্শ নয়।</string>
+    <string name="terms_sec2_title">২. গণনার যথার্থতা</string>
+    <string name="terms_sec2_desc">ভারতীয় প্রথাগত সুদ গণনার নিয়ম অনুযায়ী সঠিকভাবে হিসাব করা হয়।</string>
+    <string name="terms_sec3_title">৩. লাইসেন্স</string>
+    <string name="terms_sec3_desc">ব্যক্তিগত ও বাণিজ্যিক গণনার জন্য বিনামূল্যে ব্যবহারের অনুমতি রয়েছে।</string>
+
+    <!-- Share template -->
+    <string name="share_header">সুদ গণনা (VADDI CALCULATION)</string>
+    <string name="share_principal">মূলধন: %1$s</string>
+    <string name="share_rate">সুদের হার: %1$s</string>
+    <string name="share_duration">সময়কাল: %1$s</string>
+    <string name="share_monthly_interest">মাসিক সুদ: %1$s</string>
+    <string name="share_total_interest">মোট সুদ: %1$s</string>
+    <string name="share_total_amount">মোট প্রদেয় টাকা: %1$s</string>
+    <string name="share_footer">সুদ ক্যালকুলেটর দ্বারা গণনাকৃত (১০০% অফলাইন)</string>
+</resources>

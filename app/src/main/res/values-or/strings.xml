@@ -1,0 +1,177 @@
+<resources>
+    <string name="app_name">ସୁଧ କାଲକୁଲେଟର</string>
+    <string name="app_tagline">ସହଜ ଏବଂ ସଠିକ ସୁଧ କାଲକୁଲେଟର</string>
+
+    <!-- Navigation -->
+    <string name="nav_quick_vaddi">ଦ୍ରୁତ ସୁଧ</string>
+    <string name="nav_date_vaddi">ତାରିଖ ସୁଧ</string>
+    <string name="nav_calculator">କାଲକୁଲେଟର</string>
+    <string name="nav_history">ଇତିହାସ</string>
+    <string name="nav_settings">ସେଟିଙ୍ଗ୍ସ</string>
+
+    <!-- Calculator Modes -->
+    <string name="mode_quick">ଦ୍ରୁତ କାଲକୁଲେଟର</string>
+    <string name="mode_quick_desc">ଅବଧି ଅନୁଯାୟୀ ହିସାବ କରନ୍ତୁ (ମାସ / ବର୍ଷ / ଦିନ)</string>
+    <string name="mode_date">ତାରିଖ କାଲକୁଲେଟର</string>
+    <string name="mode_date_desc">ଦୁଇଟି ତାରିଖ ମଧ୍ୟରେ ସୁଧ ହିସାବ କରନ୍ତୁ</string>
+
+    <!-- Schemes -->
+    <string name="scheme_simple">ସରଳ ସୁଧ</string>
+    <string name="scheme_compound">ଚକ୍ରବୃଦ୍ଧି ସୁଧ</string>
+
+    <!-- Form Labels & Placeholders -->
+    <string name="label_principal">ମୂଳଧନ ରାଶି</string>
+    <string name="hint_principal">1,00,000</string>
+    <string name="label_interest_rate">ସୁଧ ହାର</string>
+    <string name="hint_interest_rate">2</string>
+    <string name="label_interest_type">ସୁଧ ପ୍ରକାର</string>
+    <string name="label_duration">ଅବଧି</string>
+    <string name="hint_duration">6</string>
+
+    <!-- Interest Types -->
+    <string name="type_monthly">ପ୍ରତି ମାସ</string>
+    <string name="type_yearly">ବାର୍ଷିକ</string>
+    <string name="type_daily">ଦୈନିକ</string>
+
+    <!-- Rate display badges -->
+    <string name="rate_badge_monthly">%1$s%% ପ୍ରତି ମାସ</string>
+    <string name="rate_badge_yearly">%1$s%% ବାର୍ଷିକ</string>
+    <string name="rate_badge_daily">%1$s%% ଦୈନିକ</string>
+
+    <!-- Dynamic Duration Units -->
+    <string name="duration_unit_monthly">ମାସ</string>
+    <string name="duration_unit_yearly">ବର୍ଷ</string>
+    <string name="duration_unit_daily">ଦିନ</string>
+
+    <string name="unit_months">ମାସ</string>
+    <string name="unit_years">ବର୍ଷ</string>
+    <string name="unit_days">ଦିନ</string>
+
+    <!-- Helper text -->
+    <string name="vaddi_helper_text">ଉଦାହରଣ: ₹1,00,000 ଉପରେ 2% ପ୍ରତି ମାସ = ₹2,000 ସୁଧ/ମାସ</string>
+
+    <!-- Date Selection -->
+    <string name="label_start_date">ଆରମ୍ଭ ତାରିଖ</string>
+    <string name="label_end_date">ଶେଷ ତାରିଖ</string>
+    <string name="select_date">ତାରିଖ ବାଛନ୍ତୁ</string>
+    <string name="date_calc_title">ତାରିଖ ସୁଧ କାଲକୁଲେଟର</string>
+    <string name="date_calc_subtitle">ଦୁଇଟି ତାରିଖ ମଧ୍ୟରେ ସଠିକ ସୁଧ ଗଣନା</string>
+    <string name="date_completed_months">ପୂର୍ଣ୍ଣ ମାସ</string>
+    <string name="date_remaining_days">ଅବଶିଷ୍ଟ ଦିନ</string>
+    <string name="date_total_days">ମୋଟ ଦିନ</string>
+    <string name="date_calc_method_title">ଗଣନାର ବିବରଣୀ</string>
+
+    <!-- Actions -->
+    <string name="btn_calculate">ହିସାବ କରନ୍ତୁ</string>
+    <string name="btn_recalculate">ପୁନର୍ବାର ହିସାବ କରନ୍ତୁ</string>
+    <string name="btn_clear">ରିସେଟ୍</string>
+    <string name="btn_share">ସେୟାର୍ କରନ୍ତୁ</string>
+    <string name="btn_save">ସାଇତନ୍ତୁ</string>
+    <string name="btn_saved">ସାଇତାଗଲା</string>
+    <string name="btn_delete">ଡିଲିଟ୍</string>
+    <string name="btn_clear_all">ସବୁ ଡିଲିଟ୍</string>
+    <string name="btn_confirm">ନିଶ୍ଚିତ କରନ୍ତୁ</string>
+    <string name="btn_cancel">ବାତିଲ୍</string>
+    <string name="btn_close">ବନ୍ଦ କରନ୍ତୁ</string>
+    <string name="btn_continue">ଆଗକୁ ବଢ଼ନ୍ତୁ</string>
+    <string name="btn_understood">ବୁଝିଗଲି</string>
+    <string name="btn_agree">ମୁଁ ସହମତ</string>
+    <string name="btn_open_in_calc">କାଲକୁଲେଟରରେ ଖୋଲନ୍ତୁ</string>
+
+    <!-- Result Card -->
+    <string name="title_result">ଗଣନାର ଫଳାଫଳ</string>
+    <string name="result_principal">ମୂଳଧନ ରାଶି</string>
+    <string name="result_rate">ସୁଧ ହାର</string>
+    <string name="result_duration">ଅବଧି</string>
+    <string name="result_monthly_vaddi">ମାସିକ ସୁଧ</string>
+    <string name="result_interest">ମୋଟ ସୁଧ</string>
+    <string name="result_total">ମୋଟ ଦେୟ ରାଶି</string>
+    <string name="result_total_payable">ମୋଟ ଦେୟ ରାଶି</string>
+    <string name="result_period">ଅବଧି</string>
+    <string name="result_breakdown">ଗଣନା ବିବରଣୀ</string>
+    <string name="result_formula">ସୂତ୍ର</string>
+    <string name="result_daily_interest">ଦୈନିକ ସୁଧ</string>
+    <string name="result_monthly_interest">ମାସିକ ସୁଧ</string>
+    <string name="result_total_days">ମୋଟ ଦିନ</string>
+    <string name="duration_breakdown">ଅବଧିର ବିବରଣୀ</string>
+
+    <!-- Validation Errors -->
+    <string name="err_principal_empty">ଦୟାକରି ମୂଳଧନ ରାଶି ପ୍ରବେଶ କରନ୍ତୁ</string>
+    <string name="err_principal_invalid">ମୂଳଧନ ଶୂନଠାରୁ ଅଧିକ ହେବା ଉଚିତ</string>
+    <string name="err_rate_empty">ଦୟାକରି ସୁଧ ହାର ପ୍ରବେଶ କରନ୍ତୁ</string>
+    <string name="err_rate_invalid">ସୁଧ ହାର ଶୂନଠାରୁ ଅଧିକ ହେବା ଉଚିତ</string>
+    <string name="err_duration_empty">ଦୟାକରି ଅବଧି ପ୍ରବେଶ କରନ୍ତୁ</string>
+    <string name="err_duration_invalid">ଅବଧି ଶୂନଠାରୁ ଅଧିକ ହେବା ଉଚିତ</string>
+    <string name="err_date_order">ଶେଷ ତାରିଖ ଆରମ୍ଭ ତାରିଖ ପୂର୍ବରୁ ହୋଇପାରିବ ନାହିଁ</string>
+
+    <!-- History Screen -->
+    <string name="title_history">ଇତିହାସ</string>
+    <string name="history_empty_title">କୌଣସି ରେକର୍ଡ ନାହିଁ</string>
+    <string name="history_empty_desc">ଆପଣଙ୍କର ସୁଧ ହିସାବ ଏଠାରେ ସୁରକ୍ଷିତ ଭାବେ ରହିବ।</string>
+    <string name="history_saved_toast">ଇତିହାସରେ ସାଇତାଗଲା</string>
+    <string name="history_cleared_toast">ସମସ୍ତ ଇତିହାସ ହଟାଇ ଦିଆଗଲା</string>
+    <string name="dialog_delete_title">ରେକର୍ଡ ହଟାଇବେ କି?</string>
+    <string name="dialog_delete_desc">ଆପଣ ଏହି ହିସାବଟିକୁ ଇତିହାସରୁ ହଟାଇବାକୁ ଚାହାଁନ୍ତି କି?</string>
+    <string name="dialog_clear_all_title">ସମସ୍ତ ଇତିହାସ ହଟାଇବେ କି?</string>
+    <string name="dialog_clear_all_desc">ସମସ୍ତ ସାଇତାଯାଇଥିବା ତଥ୍ୟ ହଟିଯିବ। ଏହାକୁ ପୁନରୁଦ୍ଧାର କରାଯାଇପାରିବ ନାହିଁ।</string>
+    <string name="dialog_history_detail_title">ଗଣନା ବିବରଣୀ</string>
+    <string name="detail_period">ଅବଧି: %1$s ରୁ %2$s</string>
+
+    <!-- First Launch Language Selection -->
+    <string name="language_select_title">ଆପଣଙ୍କ ଭାଷା ବାଛନ୍ତୁ</string>
+    <string name="language_select_subtitle">ସୁଧ ଗଣନା ପାଇଁ ଆପଣଙ୍କ ପସନ୍ଦର ଭାଷା ଚୟନ କରନ୍ତୁ। ଏହାକୁ ଆପଣ ସେଟିଙ୍ଗ୍ସରେ ଯେକୌଣସି ସମୟରେ ବଦଳାଇ ପାରିବେ।</string>
+
+    <!-- Settings Screen -->
+    <string name="title_settings">ସେଟିଙ୍ଗ୍ସ</string>
+    <string name="section_preferences">ପସନ୍ଦ</string>
+    <string name="setting_language">ଭାଷା</string>
+    <string name="setting_theme">ଥିମ୍</string>
+    <string name="theme_system">ସିଷ୍ଟମ୍ ଡିଫଲ୍ଟ</string>
+    <string name="theme_light">ଲାଇଟ୍ ଥିମ୍</string>
+    <string name="theme_dark">ଡାର୍କ ଥିମ୍</string>
+    <string name="setting_currency">ମୁଦ୍ରା ଚିହ୍ନ</string>
+    <string name="currency_inr">₹ ଭାରତୀୟ ଟଙ୍କା (INR)</string>
+    <string name="currency_usd">$ ଆମେରିକୀୟ ଡଲାର (USD)</string>
+    <string name="currency_eur">€ ୟୁରୋ (EUR)</string>
+    <string name="currency_gbp">£ ବ୍ରିଟିଶ ପାଉଣ୍ଡ (GBP)</string>
+    <string name="section_storage">ତଥ୍ୟ ଏବଂ ଷ୍ଟୋରେଜ୍</string>
+    <string name="setting_clear_history">ସମସ୍ତ ଇତିହାସ ସଫା କରନ୍ତୁ</string>
+    <string name="setting_clear_history_sub">ସ୍ଥାନୀୟ ମେମୋରୀରୁ ସମସ୍ତ ହିସାବ ହଟାନ୍ତୁ</string>
+    <string name="section_about">ସୂଚନା ଏବଂ ଆଇନଗତ</string>
+    <string name="about_privacy">ଗୋପନୀୟତା ନୀତି</string>
+    <string name="about_terms">ବ୍ୟବହାର ନିୟମାବଳୀ</string>
+    <string name="about_version">ଭର୍ସନ୍</string>
+    <string name="about_offline_badge">୧୦୦% ଅଫଲାଇନ୍ ଏବଂ ସୁରକ୍ଷିତ</string>
+    <string name="about_offline_desc">ସମସ୍ତ ତଥ୍ୟ ଆପଣଙ୍କ ଫୋନରେ ହିଁ ସୁରକ୍ଷିତ ରହିଥାଏ। କୌଣସି ଲଗଇନ୍ ଆବଶ୍ୟକ ନାହିଁ।</string>
+
+    <!-- Privacy Policy Dialog -->
+    <string name="privacy_title">ଗୋପନୀୟତା ନୀତି</string>
+    <string name="privacy_updated">ଶେଷ ଅପଡେଟ୍: ୨୦୨୬</string>
+    <string name="privacy_sec1_title">୧. କୌଣସି ବ୍ୟକ୍ତିଗତ ତଥ୍ୟ ସଂଗ୍ରହ ନାହିଁ</string>
+    <string name="privacy_sec1_desc">ସୁଧ କାଲକୁଲେଟର ଆପଣଙ୍କ ଗୋପନୀୟତାକୁ ସମ୍ପୂର୍ଣ୍ଣ ସମ୍ମାନ ଦିଏ। ଆମେ କୌଣସି ବ୍ୟକ୍ତିଗତ ତଥ୍ୟ ସଂଗ୍ରହ କରୁନାହୁଁ।</string>
+    <string name="privacy_sec2_title">୨. ୧୦୦% ଅଫଲାଇନ୍</string>
+    <string name="privacy_sec2_desc">ସମସ୍ତ ହିସାବ କେବଳ ଆପଣଙ୍କ ଫୋନରେ ସୁରକ୍ଷିତ ରହିଥାଏ।</string>
+    <string name="privacy_sec3_title">୩. କୌଣସି ଅନାବଶ୍ୟକ ଅନୁମତି ନାହିଁ</string>
+    <string name="privacy_sec3_desc">ଆପ୍ କ୍ୟାମେରା, କଣ୍ଟାକ୍ଟ କିମ୍ବା ଲୋକେସନ୍ ଅନୁମତି ମାଗି ନଥାଏ।</string>
+    <string name="privacy_sec4_title">୪. ସମ୍ପୂର୍ଣ୍ଣ ବ୍ୟବହାରକାରୀ ନିୟନ୍ତ୍ରଣ</string>
+    <string name="privacy_sec4_desc">ସେଟିଙ୍ଗ୍ସରୁ ଯେକୌଣସି ସମୟରେ ଆପଣ ଇତିହାସ ସଫା କରିପାରିବେ।</string>
+
+    <!-- Terms of Use Dialog -->
+    <string name="terms_title">ବ୍ୟବହାର ନିୟମାବଳୀ</string>
+    <string name="terms_sec1_title">୧. କେବଳ ସୂଚନା ଉଦ୍ଦେଶ୍ୟରେ</string>
+    <string name="terms_sec1_desc">ଏହା ଏକ ଗାଣିତିକ ଗଣନା ଉପକରଣ। ଏହା କୌଣସି ଆଇନଗତ କିମ୍ବା ଆର୍ଥିକ ପରାମର୍ଶ ନୁହେଁ।</string>
+    <string name="terms_sec2_title">୨. ଗଣନାର ସଠିକତା</string>
+    <string name="terms_sec2_desc">ଭାରତୀୟ ପାରମ୍ପରିକ ସୁଧ ଗଣନା ନିୟମ ଅନୁସାରେ ସଠିକ ଭାବେ ଗଣନା କରାଯାଏ।</string>
+    <string name="terms_sec3_title">୩. ଲାଇସେନ୍ସ</string>
+    <string name="terms_sec3_desc">ବ୍ୟକ୍ତିଗତ ଏବଂ ବ୍ୟବସାୟିକ ଗଣନା ପାଇଁ ମାଗଣାରେ ଉପଲବ୍ଧ।</string>
+
+    <!-- Share template -->
+    <string name="share_header">ସୁଧ ଗଣନା (VADDI CALCULATION)</string>
+    <string name="share_principal">ମୂଳଧନ: %1$s</string>
+    <string name="share_rate">ସୁଧ ହାର: %1$s</string>
+    <string name="share_duration">ଅବଧି: %1$s</string>
+    <string name="share_monthly_interest">ମାସିକ ସୁଧ: %1$s</string>
+    <string name="share_total_interest">ମୋଟ ସୁଧ: %1$s</string>
+    <string name="share_total_amount">ମୋଟ ଦେୟ ରାଶି: %1$s</string>
+    <string name="share_footer">ସୁଧ କାଲକୁଲେଟର ଦ୍ୱାରା ଗଣନା କରାଗଲା (୧୦୦% ଅଫଲାଇନ୍)</string>
+</resources>

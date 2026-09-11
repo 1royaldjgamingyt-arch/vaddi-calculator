@@ -1,0 +1,6 @@
+{
+  "name": "Vaddi Calculator",
+  "description": "Calculate interest (Vaddi) and total payable/receivable amount accurately and easily.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,73 @@
+name: Android CI / CD - Vaddi Calculator
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Build APK & Release Bundle (AAB)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Source Code
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+          cache: 'gradle'
+
+      - name: Make Gradlew Executable
+        run: chmod +x gradlew
+
+      - name: Run Unit & Calculation Engine Tests
+        run: ./gradlew testDebugUnitTest --no-daemon --stacktrace
+
+      - name: Build Debug APK
+        run: ./gradlew assembleDebug --no-daemon --stacktrace
+
+      - name: Setup Release Keystore (if Secret Provided)
+        id: setup-signing
+        run: |
+          if [ -n "${{ secrets.KEYSTORE_BASE64 }}" ]; then
+            echo "Release keystore detected in secrets. Decoding..."
+            echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 --decode > "${{ github.workspace }}/release-upload-key.jks"
+            echo "has_keystore=true" >> $GITHUB_OUTPUT
+          else
+            echo "No KEYSTORE_BASE64 secret provided. Proceeding with standard bundle..."
+            echo "has_keystore=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Build Release Bundle (AAB)
+        env:
+          KEYSTORE_PATH: ${{ github.workspace }}/release-upload-key.jks
+          KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+        run: ./gradlew bundleRelease --no-daemon --stacktrace
+
+      - name: Upload Debug APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: app-debug-apk
+          path: app/build/outputs/apk/debug/*.apk
+          if-no-files-found: warn
+          retention-days: 14
+
+      - name: Upload Release AAB (Google Play Store Bundle)
+        uses: actions/upload-artifact@v4
+        with:
+          name: app-release-aab
+          path: app/build/outputs/bundle/release/*.aab
+          if-no-files-found: error
+          retention-days: 30

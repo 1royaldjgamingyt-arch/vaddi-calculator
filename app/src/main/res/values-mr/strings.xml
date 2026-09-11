@@ -1,0 +1,177 @@
+<resources>
+    <string name="app_name">व्याज कॅल्क्युलेटर</string>
+    <string name="app_tagline">सोपे आणि अचूक व्याज कॅल्क्युलेटर</string>
+
+    <!-- Navigation -->
+    <string name="nav_quick_vaddi">जलद व्याज</string>
+    <string name="nav_date_vaddi">तारीख व्याज</string>
+    <string name="nav_calculator">कॅल्क्युलेटर</string>
+    <string name="nav_history">इतिहास</string>
+    <string name="nav_settings">सेटिंग्ज</string>
+
+    <!-- Calculator Modes -->
+    <string name="mode_quick">जलद कॅल्क्युलेटर</string>
+    <string name="mode_quick_desc">कालावधीनुसार गणना करा (महिने / वर्षे / दिवस)</string>
+    <string name="mode_date">तारीख कॅल्क्युलेटर</string>
+    <string name="mode_date_desc">दोन कॅलेंडर तारखांमधील व्याज मोजा</string>
+
+    <!-- Schemes -->
+    <string name="scheme_simple">सरळ व्याज</string>
+    <string name="scheme_compound">चक्रवाढ व्याज</string>
+
+    <!-- Form Labels & Placeholders -->
+    <string name="label_principal">मुद्दल रक्कम</string>
+    <string name="hint_principal">1,00,000</string>
+    <string name="label_interest_rate">व्याज दर</string>
+    <string name="hint_interest_rate">2</string>
+    <string name="label_interest_type">व्याज प्रकार</string>
+    <string name="label_duration">कालावधी</string>
+    <string name="hint_duration">6</string>
+
+    <!-- Interest Types -->
+    <string name="type_monthly">दरमहा</string>
+    <string name="type_yearly">दरवर्षी</string>
+    <string name="type_daily">दररोज</string>
+
+    <!-- Rate display badges -->
+    <string name="rate_badge_monthly">%1$s%% दरमहा</string>
+    <string name="rate_badge_yearly">%1$s%% दरवर्षी</string>
+    <string name="rate_badge_daily">%1$s%% दररोज</string>
+
+    <!-- Dynamic Duration Units -->
+    <string name="duration_unit_monthly">महिने</string>
+    <string name="duration_unit_yearly">वर्षे</string>
+    <string name="duration_unit_daily">दिवस</string>
+
+    <string name="unit_months">महिने</string>
+    <string name="unit_years">वर्षे</string>
+    <string name="unit_days">दिवस</string>
+
+    <!-- Helper text -->
+    <string name="vaddi_helper_text">उदाहरण: ₹1,00,000 वर 2% दरमहा = ₹2,000 व्याज/महिना</string>
+
+    <!-- Date Selection -->
+    <string name="label_start_date">सुरुवात तारीख</string>
+    <string name="label_end_date">समाप्ती तारीख</string>
+    <string name="select_date">तारीख निवडा</string>
+    <string name="date_calc_title">तारीख व्याज कॅल्क्युलेटर</string>
+    <string name="date_calc_subtitle">दोन तारखांमधील अचूक व्याज गणना</string>
+    <string name="date_completed_months">पूर्ण झालेले महिने</string>
+    <string name="date_remaining_days">उर्वरित दिवस</string>
+    <string name="date_total_days">एकूण दिवस</string>
+    <string name="date_calc_method_title">गणना तपशील</string>
+
+    <!-- Actions -->
+    <string name="btn_calculate">गणना करा</string>
+    <string name="btn_recalculate">पुन्हा गणना करा</string>
+    <string name="btn_clear">रीसेट</string>
+    <string name="btn_share">शेअर करा</string>
+    <string name="btn_save">जतन करा</string>
+    <string name="btn_saved">जतन केले</string>
+    <string name="btn_delete">हटवा</string>
+    <string name="btn_clear_all">सर्व हटवा</string>
+    <string name="btn_confirm">पुष्टी करा</string>
+    <string name="btn_cancel">रद्द करा</string>
+    <string name="btn_close">बंद करा</string>
+    <string name="btn_continue">पुढे जा</string>
+    <string name="btn_understood">समजले</string>
+    <string name="btn_agree">मी सहमत आहे</string>
+    <string name="btn_open_in_calc">कॅल्क्युलेटरमध्ये उघडा</string>
+
+    <!-- Result Card -->
+    <string name="title_result">गणना निकाल</string>
+    <string name="result_principal">मुद्दल रक्कम</string>
+    <string name="result_rate">व्याज दर</string>
+    <string name="result_duration">कालावधी</string>
+    <string name="result_monthly_vaddi">मासिक व्याज</string>
+    <string name="result_interest">एकूण व्याज</string>
+    <string name="result_total">एकूण देय रक्कम</string>
+    <string name="result_total_payable">एकूण देय रक्कम</string>
+    <string name="result_period">कालावधी</string>
+    <string name="result_breakdown">गणना तपशील</string>
+    <string name="result_formula">सूत्र</string>
+    <string name="result_daily_interest">दैनंदिन व्याज</string>
+    <string name="result_monthly_interest">मासिक व्याज</string>
+    <string name="result_total_days">एकूण दिवस</string>
+    <string name="duration_breakdown">कालावधी तपशील</string>
+
+    <!-- Validation Errors -->
+    <string name="err_principal_empty">कृपया मुद्दल रक्कम प्रविष्ट करा</string>
+    <string name="err_principal_invalid">मुद्दल शून्यापेक्षा जास्त असावे</string>
+    <string name="err_rate_empty">कृपया व्याज दर प्रविष्ट करा</string>
+    <string name="err_rate_invalid">व्याज दर शून्यापेक्षा जास्त असावा</string>
+    <string name="err_duration_empty">कृपया कालावधी प्रविष्ट करा</string>
+    <string name="err_duration_invalid">कालावधी शून्यापेक्षा जास्त असावा</string>
+    <string name="err_date_order">समाप्ती तारीख सुरुवातीच्या तारखेपूर्वी असू शकत नाही</string>
+
+    <!-- History Screen -->
+    <string name="title_history">इतिहास</string>
+    <string name="history_empty_title">कोणताही इतिहास नाही</string>
+    <string name="history_empty_desc">तुमच्या गणना येथे सुरक्षित जतन केल्या जातील.</string>
+    <string name="history_saved_toast">गणना इतिहासामध्ये जतन केली</string>
+    <string name="history_cleared_toast">संपूर्ण इतिहास हटवला</string>
+    <string name="dialog_delete_title">नोंद हटवायची का?</string>
+    <string name="dialog_delete_desc">तुम्हाला ही गणना इतिहासामधून हटवायची आहे का?</string>
+    <string name="dialog_clear_all_title">संपूर्ण इतिहास हटवायचा का?</string>
+    <string name="dialog_clear_all_desc">सर्व जतन केलेल्या नोंदी हटवल्या जातील. ही कृती पूर्ववत करता येणार नाही.</string>
+    <string name="dialog_history_detail_title">गणना तपशील</string>
+    <string name="detail_period">कालावधी: %1$s ते %2$s</string>
+
+    <!-- First Launch Language Selection -->
+    <string name="language_select_title">तुमची भाषा निवडा</string>
+    <string name="language_select_subtitle">व्याज गणनेसाठी तुमची पसंतीची भाषा निवडा. तुम्ही हे नंतर सेटिंग्जमध्ये कधीही बदलू शकता.</string>
+
+    <!-- Settings Screen -->
+    <string name="title_settings">सेटिंग्ज</string>
+    <string name="section_preferences">प्राधान्ये</string>
+    <string name="setting_language">भाषा</string>
+    <string name="setting_theme">थीम</string>
+    <string name="theme_system">सिस्टम डीफॉल्ट</string>
+    <string name="theme_light">लाइट थीम</string>
+    <string name="theme_dark">डार्क थीम</string>
+    <string name="setting_currency">चलन चिन्ह</string>
+    <string name="currency_inr">₹ भारतीय रुपया (INR)</string>
+    <string name="currency_usd">$ यूएस डॉलर (USD)</string>
+    <string name="currency_eur">€ युरो (EUR)</string>
+    <string name="currency_gbp">£ ब्रिटिश पाउंड (GBP)</string>
+    <string name="section_storage">डेटा आणि स्टोरेज</string>
+    <string name="setting_clear_history">सर्व इतिहास हटवा</string>
+    <string name="setting_clear_history_sub">स्थानिक स्टोरेजमधून सर्व नोंदी हटवा</string>
+    <string name="section_about">माहिती आणि कायदेशीर</string>
+    <string name="about_privacy">गोपनीयता धोरण</string>
+    <string name="about_terms">वापराच्या अटी</string>
+    <string name="about_version">आवृत्ती</string>
+    <string name="about_offline_badge">100% ऑफलाइन आणि सुरक्षित</string>
+    <string name="about_offline_desc">सर्व गणना तुमच्या डिव्हाइसवर सुरक्षित राहतात. इंटरनेट किंवा लॉगिनची गरज नाही.</string>
+
+    <!-- Privacy Policy Dialog -->
+    <string name="privacy_title">गोपनीयता धोरण</string>
+    <string name="privacy_updated">शेवटचे अद्यतन: 2026</string>
+    <string name="privacy_sec1_title">1. शून्य वैयक्तिक डेटा संकलन</string>
+    <string name="privacy_sec1_desc">व्याज कॅल्क्युलेटर पूर्णपणे गोपनीयतेचे पालन करते. आम्ही कोणताही वैयक्तिक किंवा आर्थिक डेटा संकलित करत नाही.</string>
+    <string name="privacy_sec2_title">2. 100% ऑफलाइन रचना</string>
+    <string name="privacy_sec2_desc">सर्व डेटा फक्त तुमच्या स्थानिक फोनवरच राहतो.</string>
+    <string name="privacy_sec3_title">3. कोणत्याही संवेदनशील परवानग्या नाहीत</string>
+    <string name="privacy_sec3_desc">अॅप कॅमेरा, संपर्क किंवा स्थानाची परवानगी मागत नाही.</string>
+    <string name="privacy_sec4_title">4. पूर्ण वापरकर्ता नियंत्रण</string>
+    <string name="privacy_sec4_desc">सेटिंग्जमधून कधीही तुम्ही सर्व डेटा हटवू शकता.</string>
+
+    <!-- Terms of Use Dialog -->
+    <string name="terms_title">वापराच्या अटी</string>
+    <string name="terms_sec1_title">1. केवळ माहितीच्या उद्देशाने</string>
+    <string name="terms_sec1_desc">हे एक गणितीय साधन आहे. कोणताही कायदेशीर किंवा कर सल्ला नाही.</string>
+    <string name="terms_sec2_title">2. गणनेची अचूकता</string>
+    <string name="terms_sec2_desc">भारतीय पारंपारिक व्याज पद्धतीनुसार अचूक गणना केली जाते.</string>
+    <string name="terms_sec3_title">3. परवाना</string>
+    <string name="terms_sec3_desc">वैयक्तिक आणि व्यावसायिक वापरासाठी मोफत उपलब्ध.</string>
+
+    <!-- Share template -->
+    <string name="share_header">व्याज गणना (VADDI CALCULATION)</string>
+    <string name="share_principal">मुद्दल: %1$s</string>
+    <string name="share_rate">व्याज दर: %1$s</string>
+    <string name="share_duration">कालावधी: %1$s</string>
+    <string name="share_monthly_interest">मासिक व्याज: %1$s</string>
+    <string name="share_total_interest">एकूण व्याज: %1$s</string>
+    <string name="share_total_amount">एकूण रक्कम: %1$s</string>
+    <string name="share_footer">व्याज कॅल्क्युलेटरद्वारे गणना केली (100% ऑफलाइन)</string>
+</resources>

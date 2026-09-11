@@ -1,0 +1,177 @@
+<resources>
+    <string name="app_name">ಬಡ್ಡಿ ಕ್ಯಾಲ್ಕುಲೇಟರ್</string>
+    <string name="app_tagline">ಸರಳ &amp; ನಿಖರವಾದ ಬಡ್ಡಿ ಕ್ಯಾಲ್ಕುಲೇಟರ್</string>
+
+    <!-- Navigation -->
+    <string name="nav_quick_vaddi">ತ್ವರಿತ ಬಡ್ಡಿ</string>
+    <string name="nav_date_vaddi">ದಿನಾಂಕ ಬಡ್ಡಿ</string>
+    <string name="nav_calculator">ಕ್ಯಾಲ್ಕುಲೇಟರ್</string>
+    <string name="nav_history">ಇತಿಹಾಸ</string>
+    <string name="nav_settings">ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
+
+    <!-- Calculator Modes -->
+    <string name="mode_quick">ತ್ವರಿತ ಕ್ಯಾಲ್ಕುಲೇಟರ್</string>
+    <string name="mode_quick_desc">ಅವಧಿ ಆಧಾರದ ಮೇಲೆ ಲೆಕ್ಕ ಹಾಕಿ (ತಿಂಗಳು / ವರ್ಷ / ದಿನಗಳು)</string>
+    <string name="mode_date">ದಿನಾಂಕ ಕ್ಯಾಲ್ಕುಲೇಟರ್</string>
+    <string name="mode_date_desc">ಎರಡು ಕ್ಯಾಲೆಂಡರ್ ದಿನಾಂಕಗಳ ನಡುವೆ ಬಡ್ಡಿ ಲೆಕ್ಕ ಹಾಕಿ</string>
+
+    <!-- Schemes -->
+    <string name="scheme_simple">ಸರಳ ಬಡ್ಡಿ</string>
+    <string name="scheme_compound">ಚಕ್ರ ಬಡ್ಡಿ</string>
+
+    <!-- Form Labels & Placeholders -->
+    <string name="label_principal">ಅಸಲು ಮೊತ್ತ</string>
+    <string name="hint_principal">1,00,000</string>
+    <string name="label_interest_rate">ಬಡ್ಡಿ ದರ</string>
+    <string name="hint_interest_rate">2</string>
+    <string name="label_interest_type">ಬಡ್ಡಿ ಪ್ರಕಾರ</string>
+    <string name="label_duration">ಅವಧಿ</string>
+    <string name="hint_duration">6</string>
+
+    <!-- Interest Types -->
+    <string name="type_monthly">ತಿಂಗಳಿಗೆ</string>
+    <string name="type_yearly">ವರ್ಷಕ್ಕೆ</string>
+    <string name="type_daily">ದಿನಕ್ಕೆ</string>
+
+    <!-- Rate display badges -->
+    <string name="rate_badge_monthly">%1$s%% ತಿಂಗಳಿಗೆ</string>
+    <string name="rate_badge_yearly">%1$s%% ವರ್ಷಕ್ಕೆ</string>
+    <string name="rate_badge_daily">%1$s%% ದಿನಕ್ಕೆ</string>
+
+    <!-- Dynamic Duration Units -->
+    <string name="duration_unit_monthly">ತಿಂಗಳುಗಳು</string>
+    <string name="duration_unit_yearly">ವರ್ಷಗಳು</string>
+    <string name="duration_unit_daily">ದಿನಗಳು</string>
+
+    <string name="unit_months">ತಿಂಗಳುಗಳು</string>
+    <string name="unit_years">ವರ್ಷಗಳು</string>
+    <string name="unit_days">ದಿನಗಳು</string>
+
+    <!-- Helper text -->
+    <string name="vaddi_helper_text">ಉದಾಹರಣೆ: ₹1,00,000ಕ್ಕೆ 2% ತಿಂಗಳಿಗೆ = ₹2,000 ಬಡ್ಡಿ/ತಿಂಗಳು</string>
+
+    <!-- Date Selection -->
+    <string name="label_start_date">ಪ್ರಾರಂಭ ದಿನಾಂಕ</string>
+    <string name="label_end_date">ಮುಕ್ತಾಯ ದಿನಾಂಕ</string>
+    <string name="select_date">ದಿನಾಂಕವನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="date_calc_title">ದಿನಾಂಕ ಬಡ್ಡಿ ಕ್ಯಾಲ್ಕುಲೇಟರ್</string>
+    <string name="date_calc_subtitle">ಎರಡು ದಿನಾಂಕಗಳ ನಡುವಿನ ನಿಖರ ಬಡ್ಡಿ ಲೆಕ್ಕಾಚಾರ</string>
+    <string name="date_completed_months">ಪೂರ್ಣಗೊಂಡ ತಿಂಗಳುಗಳು</string>
+    <string name="date_remaining_days">ಉಳಿದ ದಿನಗಳು</string>
+    <string name="date_total_days">ಒಟ್ಟು ದಿನಗಳು</string>
+    <string name="date_calc_method_title">ಲೆಕ್ಕಾಚಾರದ ವಿವರ</string>
+
+    <!-- Actions -->
+    <string name="btn_calculate">ಲೆಕ್ಕ ಹಾಕಿ</string>
+    <string name="btn_recalculate">ಮತ್ತೆ ಲೆಕ್ಕ ಹಾಕಿ</string>
+    <string name="btn_clear">ರೀಸೆಟ್</string>
+    <string name="btn_share">ಹಂಚಿಕೊಳ್ಳಿ</string>
+    <string name="btn_save">ಉಳಿಸಿ</string>
+    <string name="btn_saved">ಉಳಿಸಲಾಗಿದೆ</string>
+    <string name="btn_delete">ಅಳಿಸಿ</string>
+    <string name="btn_clear_all">ಎಲ್ಲವನ್ನೂ ಅಳಿಸಿ</string>
+    <string name="btn_confirm">ದೃಢೀಕರಿಸಿ</string>
+    <string name="btn_cancel">ರದ್ದುಮಾಡಿ</string>
+    <string name="btn_close">ಮುಚ್ಚಿ</string>
+    <string name="btn_continue">ಮುಂದುವರಿಯಿರಿ</string>
+    <string name="btn_understood">ಅರ್ಥವಾಯಿತು</string>
+    <string name="btn_agree">ನಾನು ಒಪ್ಪುತ್ತೇನೆ</string>
+    <string name="btn_open_in_calc">ಕ್ಯಾಲ್ಕುಲೇಟರ್‌ನಲ್ಲಿ ತೆರೆಯಿರಿ</string>
+
+    <!-- Result Card -->
+    <string name="title_result">ಲೆಕ್ಕಾಚಾರದ ಫಲಿತಾಂಶ</string>
+    <string name="result_principal">ಅಸಲು ಮೊತ್ತ</string>
+    <string name="result_rate">ಬಡ್ಡಿ ದರ</string>
+    <string name="result_duration">ಅವಧಿ</string>
+    <string name="result_monthly_vaddi">ಮಾಸಿಕ ಬಡ್ಡಿ</string>
+    <string name="result_interest">ಒಟ್ಟು ಬಡ್ಡಿ</string>
+    <string name="result_total">ಒಟ್ಟು ಪಾವತಿಸಬೇಕಾದ ಮೊತ್ತ</string>
+    <string name="result_total_payable">ಒಟ್ಟು ಪಾವತಿಸಬೇಕಾದ ಮೊತ್ತ</string>
+    <string name="result_period">ಅವಧಿ</string>
+    <string name="result_breakdown">ಲೆಕ್ಕಾಚಾರದ ವಿವರಣೆ</string>
+    <string name="result_formula">ಸೂತ್ರ</string>
+    <string name="result_daily_interest">ದೈನಂದಿನ ಬಡ್ಡಿ</string>
+    <string name="result_monthly_interest">ಮಾಸಿಕ ಬಡ್ಡಿ</string>
+    <string name="result_total_days">ಒಟ್ಟು ದಿನಗಳು</string>
+    <string name="duration_breakdown">ಅವಧಿಯ ವಿವರ</string>
+
+    <!-- Validation Errors -->
+    <string name="err_principal_empty">ದಯವಿಟ್ಟು ಅಸಲು ಮೊತ್ತವನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="err_principal_invalid">ಅಸಲು ಮೊತ್ತ ಶೂನ್ಯಕ್ಕಿಂತ ಹೆಚ್ಚಾಗಿರಬೇಕು</string>
+    <string name="err_rate_empty">ದಯವಿಟ್ಟು ಬಡ್ಡಿ ದರವನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="err_rate_invalid">ಬಡ್ಡಿ ದರ ಶೂನ್ಯಕ್ಕಿಂತ ಹೆಚ್ಚಾಗಿರಬೇಕು</string>
+    <string name="err_duration_empty">ದಯವಿಟ್ಟು ಅವಧಿಯನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="err_duration_invalid">ಅವಧಿ ಶೂನ್ಯಕ್ಕಿಂತ ಹೆಚ್ಚಾಗಿರಬೇಕು</string>
+    <string name="err_date_order">ಮುಕ್ತಾಯ ದಿನಾಂಕ ಪ್ರಾರಂಭ ದಿನಾಂಕಕ್ಕಿಂತ ಮುಂಚಿತವಾಗಿರಬಾರದು</string>
+
+    <!-- History Screen -->
+    <string name="title_history">ಇತಿಹಾಸ</string>
+    <string name="history_empty_title">ಯಾವುದೇ ಇತಿಹಾಸವಿಲ್ಲ</string>
+    <string name="history_empty_desc">ನೀವು ಲೆಕ್ಕ ಹಾಕಿದ ಫಲಿತಾಂಶಗಳನ್ನು ಇಲ್ಲಿ ಸುಲಭವಾಗಿ ನೋಡಬಹುದು.</string>
+    <string name="history_saved_toast">ಲೆಕ್ಕಾಚಾರ ಇತಿಹಾಸದಲ್ಲಿ ಉಳಿಸಲಾಗಿದೆ</string>
+    <string name="history_cleared_toast">ಎಲ್ಲಾ ಇತಿಹಾಸ ಅಳಿಸಲಾಗಿದೆ</string>
+    <string name="dialog_delete_title">ಲೆಕ್ಕಾಚಾರ ಅಳಿಸಬೇಕೇ?</string>
+    <string name="dialog_delete_desc">ಈ ಲೆಕ್ಕಾಚಾರವನ್ನು ಇತಿಹಾಸದಿಂದ ಅಳಿಸಲು ನೀವು ಬಯಸುವಿರಾ?</string>
+    <string name="dialog_clear_all_title">ಸಂಪೂರ್ಣ ಇತಿಹಾಸ ಅಳಿಸಬೇಕೇ?</string>
+    <string name="dialog_clear_all_desc">ಉಳಿಸಲಾದ ಎಲ್ಲಾ ದಾಖಲೆಗಳನ್ನು ಅಳಿಸಲಾಗುತ್ತದೆ. ಇದನ್ನು ರದ್ದುಗೊಳಿಸಲಾಗುವುದಿಲ್ಲ.</string>
+    <string name="dialog_history_detail_title">ಲೆಕ್ಕಾಚಾರದ ವಿವರಗಳು</string>
+    <string name="detail_period">ಅವಧಿ: %1$s ರಿಂದ %2$s ವರೆಗೆ</string>
+
+    <!-- First Launch Language Selection -->
+    <string name="language_select_title">ನಿಮ್ಮ ಭಾಷೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="language_select_subtitle">ಬಡ್ಡಿ ಲೆಕ್ಕಾಚಾರಕ್ಕಾಗಿ ನಿಮ್ಮ ಆದ್ಯತೆಯ ಭಾಷೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ. ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಇದನ್ನು ಯಾವಾಗ ಬೇಕಾದರೂ ಬದಲಾಯಿಸಬಹುದು.</string>
+
+    <!-- Settings Screen -->
+    <string name="title_settings">ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
+    <string name="section_preferences">ಆದ್ಯತೆಗಳು</string>
+    <string name="setting_language">ಭಾಷೆ</string>
+    <string name="setting_theme">ಥೀಮ್</string>
+    <string name="theme_system">ಸಿಸ್ಟಮ್ ಡೀಫಾಲ್ಟ್</string>
+    <string name="theme_light">ಲೈಟ್ ಥೀಮ್</string>
+    <string name="theme_dark">ಡಾರ್ಕ್ ಥೀಮ್</string>
+    <string name="setting_currency">ಕರೆನ್ಸಿ ಚಿಹ್ನೆ</string>
+    <string name="currency_inr">₹ ಭಾರತೀಯ ರೂಪಾಯಿ (INR)</string>
+    <string name="currency_usd">$ ಯುಎಸ್ ಡಾಲರ್ (USD)</string>
+    <string name="currency_eur">€ ಯುರೋ (EUR)</string>
+    <string name="currency_gbp">£ ಬ್ರಿಟಿಷ್ ಪೌಂಡ್ (GBP)</string>
+    <string name="section_storage">ಡೇಟಾ &amp; ಸಂಗ್ರಹಣೆ</string>
+    <string name="setting_clear_history">ಎಲ್ಲಾ ಇತಿಹಾಸವನ್ನು ತೆರವುಗೊಳಿಸಿ</string>
+    <string name="setting_clear_history_sub">ಸ್ಥಳೀಯ ಸಂಗ್ರಹಣೆಯಿಂದ ಎಲ್ಲಾ ಲೆಕ್ಕಾಚಾರಗಳನ್ನು ಅಳಿಸಿ</string>
+    <string name="section_about">ಮಾಹಿತಿ &amp; ಕಾನೂನು</string>
+    <string name="about_privacy">ಗೌಪ್ಯತೆ ನೀತಿ</string>
+    <string name="about_terms">ಬಳಕೆಯ ನಿಯಮಗಳು</string>
+    <string name="about_version">ಆವೃತ್ತಿ</string>
+    <string name="about_offline_badge">100% ಆಫ್‌ಲೈನ್ &amp; ಸುರಕ್ಷಿತ</string>
+    <string name="about_offline_desc">ಎಲ್ಲಾ ಲೆಕ್ಕಾಚಾರಗಳು ನಿಮ್ಮ ಸಾಧನದಲ್ಲೇ ಇರುತ್ತವೆ. ಯಾವುದೇ ಲಾಗಿನ್ ಅಗತ್ಯವಿಲ್ಲ.</string>
+
+    <!-- Privacy Policy Dialog -->
+    <string name="privacy_title">ಗೌಪ್ಯತೆ ನೀತಿ</string>
+    <string name="privacy_updated">ಕೊನೆಯ ನವೀಕರಣ: 2026</string>
+    <string name="privacy_sec1_title">1. ಶೂನ್ಯ ವೈಯಕ್ತಿಕ ಡೇಟಾ ಸಂಗ್ರಹಣೆ</string>
+    <string name="privacy_sec1_desc">ಬಡ್ಡಿ ಕ್ಯಾಲ್ಕುಲೇಟರ್ ನಿಮ್ಮ ಗೌಪ್ಯತೆಗೆ ಸಂಪೂರ್ಣ ಬದ್ಧವಾಗಿದೆ. ನಾವು ಯಾವುದೇ ವೈಯಕ್ತಿಕ ಡೇಟಾ ಅಥವಾ ಸಂಪರ್ಕಗಳನ್ನು ಸಂಗ್ರಹಿಸುವುದಿಲ್ಲ.</string>
+    <string name="privacy_sec2_title">2. 100% ಆಫ್‌ಲೈನ್ ರಚನೆ</string>
+    <string name="privacy_sec2_desc">ಎಲ್ಲಾ ಲೆಕ್ಕಾಚಾರದ ಇತಿಹಾಸವು ನಿಮ್ಮ ಫೋನ್‌ನ ಸ್ಥಳೀಯ ಸಂಗ್ರಹಣೆಯಲ್ಲಿ ಮಾತ್ರ ಉಳಿಯುತ್ತದೆ.</string>
+    <string name="privacy_sec3_title">3. ಯಾವುದೇ ಸೂಕ್ಷ್ಮ ಅನುಮತಿಗಳಿಲ್ಲ</string>
+    <string name="privacy_sec3_desc">ಅಪ್ಲಿಕೇಶನ್ ಕ್ಯಾಮೆರಾ, ಸಂಪರ್ಕಗಳು, SMS ಅಥವಾ ಸ್ಥಳ ಅನುಮತಿಗಳನ್ನು ಕೇಳುವುದಿಲ್ಲ.</string>
+    <string name="privacy_sec4_title">4. ಪೂರ್ಣ ಬಳಕೆದಾರ ನಿಯಂತ್ರಣ</string>
+    <string name="privacy_sec4_desc">ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಂದ ಯಾವಾಗ ಬೇಕಾದರೂ ಪ್ರತ್ಯೇಕ ಅಥವಾ ಎಲ್ಲಾ ಇತಿಹಾಸ ದಾಖಲೆಗಳನ್ನು ಅಳಿಸಬಹುದು.</string>
+
+    <!-- Terms of Use Dialog -->
+    <string name="terms_title">ಬಳಕೆಯ ನಿಯಮಗಳು</string>
+    <string name="terms_sec1_title">1. ಕೇವಲ ಮಾಹಿತಿ ಉದ್ದೇಶಗಳಿಗಾಗಿ</string>
+    <string name="terms_sec1_desc">ಬಡ್ಡಿ ಕ್ಯಾಲ್ಕುಲೇಟರ್ ಒಂದು ಗಣಿತೀಯ ಲೆಕ್ಕಾಚಾರದ ಸಾಧನವಾಗಿದೆ. ಇದು ಕಾನೂನು ಅಥವಾ ಹಣಕಾಸಿನ ಸಲಹೆಯಲ್ಲ.</string>
+    <string name="terms_sec2_title">2. ಲೆಕ್ಕಾಚಾರದ ನಿಖರತೆ</string>
+    <string name="terms_sec2_desc">ಭಾರತೀಯ ಸಾಂಪ್ರದಾಯಿಕ ಬಡ್ಡಿ ಗಣನೆಯಂತೆ ನಿಖರವಾಗಿ ಲೆಕ್ಕಹಾಕಲಾಗುತ್ತದೆ.</string>
+    <string name="terms_sec3_title">3. ಪರವಾನಗಿ</string>
+    <string name="terms_sec3_desc">ವೈಯಕ್ತಿಕ ಮತ್ತು ವಾಣಿಜ್ಯ ಬಳಕೆಗೆ ಉಚಿತವಾಗಿ ಒದಗಿಸಲಾಗಿದೆ.</string>
+
+    <!-- Share template -->
+    <string name="share_header">ಬಡ್ಡಿ ಲೆಕ್ಕಾಚಾರ (VADDI CALCULATION)</string>
+    <string name="share_principal">ಅಸಲು: %1$s</string>
+    <string name="share_rate">ಬಡ್ಡಿ ದರ: %1$s</string>
+    <string name="share_duration">ಅವಧಿ: %1$s</string>
+    <string name="share_monthly_interest">ಮಾಸಿಕ ಬಡ್ಡಿ: %1$s</string>
+    <string name="share_total_interest">ಒಟ್ಟು ಬಡ್ಡಿ: %1$s</string>
+    <string name="share_total_amount">ಒಟ್ಟು ಮೊತ್ತ: %1$s</string>
+    <string name="share_footer">ಬಡ್ಡಿ ಕ್ಯಾಲ್ಕುಲೇಟರ್ ಮೂಲಕ ಲೆಕ್ಕಹಾಕಲಾಗಿದೆ (100% ಆಫ್‌ಲೈನ್)</string>
+</resources>

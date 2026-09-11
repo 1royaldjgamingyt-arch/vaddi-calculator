@@ -1,0 +1,177 @@
+<resources>
+    <string name="app_name">ਵਿਆਜ ਕੈਲਕੁਲੇਟਰ</string>
+    <string name="app_tagline">ਸਧਾਰਨ ਅਤੇ ਸਹੀ ਵਿਆਜ ਕੈਲਕੁਲੇਟਰ</string>
+
+    <!-- Navigation -->
+    <string name="nav_quick_vaddi">ਤੇਜ਼ ਵਿਆਜ</string>
+    <string name="nav_date_vaddi">ਮਿਤੀ ਵਿਆਜ</string>
+    <string name="nav_calculator">ਕੈਲਕੁਲੇਟਰ</string>
+    <string name="nav_history">ਇਤਿਹਾਸ</string>
+    <string name="nav_settings">ਸੈਟਿੰਗਾਂ</string>
+
+    <!-- Calculator Modes -->
+    <string name="mode_quick">ਤੇਜ਼ ਕੈਲਕੁਲੇਟਰ</string>
+    <string name="mode_quick_desc">ਮਿਆਦ ਅਨੁਸਾਰ ਗਣਨਾ ਕਰੋ (ਮਹੀਨੇ / ਸਾਲ / ਦਿਨ)</string>
+    <string name="mode_date">ਮਿਤੀ ਕੈਲਕੁਲੇਟਰ</string>
+    <string name="mode_date_desc">ਦੋ ਕੈਲੰਡਰ ਮਿਤੀਆਂ ਵਿਚਕਾਰ ਵਿਆਜ ਗਿਣੋ</string>
+
+    <!-- Schemes -->
+    <string name="scheme_simple">ਸਧਾਰਨ ਵਿਆਜ</string>
+    <string name="scheme_compound">ਚੱਕਰਵਰਤੀ ਵਿਆਜ</string>
+
+    <!-- Form Labels & Placeholders -->
+    <string name="label_principal">ਮੂਲ ਰਕਮ</string>
+    <string name="hint_principal">1,00,000</string>
+    <string name="label_interest_rate">ਵਿਆਜ ਦਰ</string>
+    <string name="hint_interest_rate">2</string>
+    <string name="label_interest_type">ਵਿਆਜ ਦੀ ਕਿਸਮ</string>
+    <string name="label_duration">ਮਿਆਦ</string>
+    <string name="hint_duration">6</string>
+
+    <!-- Interest Types -->
+    <string name="type_monthly">ਪ੍ਰਤੀ ਮਹੀਨਾ</string>
+    <string name="type_yearly">ਸਾਲਾਨਾ</string>
+    <string name="type_daily">ਰੋਜ਼ਾਨਾ</string>
+
+    <!-- Rate display badges -->
+    <string name="rate_badge_monthly">%1$s%% ਪ੍ਰਤੀ ਮਹੀਨਾ</string>
+    <string name="rate_badge_yearly">%1$s%% ਸਾਲਾਨਾ</string>
+    <string name="rate_badge_daily">%1$s%% ਰੋਜ਼ਾਨਾ</string>
+
+    <!-- Dynamic Duration Units -->
+    <string name="duration_unit_monthly">ਮਹੀਨੇ</string>
+    <string name="duration_unit_yearly">ਸਾਲ</string>
+    <string name="duration_unit_daily">ਦਿਨ</string>
+
+    <string name="unit_months">ਮਹੀਨੇ</string>
+    <string name="unit_years">ਸਾਲ</string>
+    <string name="unit_days">ਦਿਨ</string>
+
+    <!-- Helper text -->
+    <string name="vaddi_helper_text">ਉਦਾਹਰਨ: ₹1,00,000 \'ਤੇ 2% ਪ੍ਰਤੀ ਮਹੀਨਾ = ₹2,000 ਵਿਆਜ/ਮਹੀਨਾ</string>
+
+    <!-- Date Selection -->
+    <string name="label_start_date">ਸ਼ੁਰੂਆਤੀ ਮਿਤੀ</string>
+    <string name="label_end_date">ਆਖਰੀ ਮਿਤੀ</string>
+    <string name="select_date">ਮਿਤੀ ਚੁਣੋ</string>
+    <string name="date_calc_title">ਮਿਤੀ ਵਿਆਜ ਕੈਲਕੁਲੇਟਰ</string>
+    <string name="date_calc_subtitle">ਦੋ ਮਿਤੀਆਂ ਵਿਚਕਾਰ ਸਹੀ ਵਿਆਜ ਗਣਨਾ</string>
+    <string name="date_completed_months">ਪੂਰੇ ਹੋਏ ਮਹੀਨੇ</string>
+    <string name="date_remaining_days">ਬਾਕੀ ਦਿਨ</string>
+    <string name="date_total_days">ਕੁੱਲ ਦਿਨ</string>
+    <string name="date_calc_method_title">ਗਣਨਾ ਦੇ ਵੇਰਵੇ</string>
+
+    <!-- Actions -->
+    <string name="btn_calculate">ਗਣਨਾ ਕਰੋ</string>
+    <string name="btn_recalculate">ਦੁਬਾਰਾ ਗਣਨਾ ਕਰੋ</string>
+    <string name="btn_clear">ਰੀਸੈੱਟ</string>
+    <string name="btn_share">ਸਾਂਝਾ ਕਰੋ</string>
+    <string name="btn_save">ਸੰਭਾਲੋ</string>
+    <string name="btn_saved">ਸੰਭਾਲਿਆ ਗਿਆ</string>
+    <string name="btn_delete">ਮਿਟਾਓ</string>
+    <string name="btn_clear_all">ਸਭ ਮਿਟਾਓ</string>
+    <string name="btn_confirm">ਪੁਸ਼ਟੀ ਕਰੋ</string>
+    <string name="btn_cancel">ਰੱਦ ਕਰੋ</string>
+    <string name="btn_close">ਬੰਦ ਕਰੋ</string>
+    <string name="btn_continue">ਜਾਰੀ ਰੱਖੋ</string>
+    <string name="btn_understood">ਸਮਝ ਗਿਆ</string>
+    <string name="btn_agree">ਮੈਂ ਸਹਿਮਤ ਹਾਂ</string>
+    <string name="btn_open_in_calc">ਕੈਲਕੁਲੇਟਰ ਵਿੱਚ ਖੋਲ੍ਹੋ</string>
+
+    <!-- Result Card -->
+    <string name="title_result">ਗਣਨਾ ਦਾ ਨਤੀਜਾ</string>
+    <string name="result_principal">ਮੂਲ ਰਕਮ</string>
+    <string name="result_rate">ਵਿਆਜ ਦਰ</string>
+    <string name="result_duration">ਮਿਆਦ</string>
+    <string name="result_monthly_vaddi">ਮਹੀਨਾਵਾਰ ਵਿਆਜ</string>
+    <string name="result_interest">ਕੁੱਲ ਵਿਆਜ</string>
+    <string name="result_total">ਕੁੱਲ ਦੇਣਯੋਗ ਰਕਮ</string>
+    <string name="result_total_payable">ਕੁੱਲ ਦੇਣਯੋਗ ਰਕਮ</string>
+    <string name="result_period">ਮਿਆਦ</string>
+    <string name="result_breakdown">ਗਣਨਾ ਵੇਰਵੇ</string>
+    <string name="result_formula">ਫਾਰਮੂਲਾ</string>
+    <string name="result_daily_interest">ਰੋਜ਼ਾਨਾ ਵਿਆਜ</string>
+    <string name="result_monthly_interest">ਮਹੀਨਾਵਾਰ ਵਿਆਜ</string>
+    <string name="result_total_days">ਕੁੱਲ ਦਿਨ</string>
+    <string name="duration_breakdown">ਮਿਆਦ ਦੇ ਵੇਰਵੇ</string>
+
+    <!-- Validation Errors -->
+    <string name="err_principal_empty">ਕਿਰਪਾ ਕਰਕੇ ਮੂਲ ਰਕਮ ਦਰਜ ਕਰੋ</string>
+    <string name="err_principal_invalid">ਮੂਲ ਰਕਮ ਜ਼ੀਰੋ ਤੋਂ ਵੱਧ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ</string>
+    <string name="err_rate_empty">ਕਿਰਪਾ ਕਰਕੇ ਵਿਆਜ ਦਰ ਦਰਜ ਕਰੋ</string>
+    <string name="err_rate_invalid">ਵਿਆਜ ਦਰ ਜ਼ੀਰੋ ਤੋਂ ਵੱਧ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ</string>
+    <string name="err_duration_empty">ਕਿਰਪਾ ਕਰਕੇ ਮਿਆਦ ਦਰਜ ਕਰੋ</string>
+    <string name="err_duration_invalid">ਮਿਆਦ ਜ਼ੀਰੋ ਤੋਂ ਵੱਧ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ</string>
+    <string name="err_date_order">ਆਖਰੀ ਮਿਤੀ ਸ਼ੁਰੂਆਤੀ ਮਿਤੀ ਤੋਂ ਪਹਿਲਾਂ ਨਹੀਂ ਹੋ ਸਕਦੀ</string>
+
+    <!-- History Screen -->
+    <string name="title_history">ਇਤਿਹਾਸ</string>
+    <string name="history_empty_title">ਕੋਈ ਰਿਕਾਰਡ ਨਹੀਂ ਹੈ</string>
+    <string name="history_empty_desc">ਤੁਹਾਡੀ ਵਿਆਜ ਗਣਨਾ ਦੇ ਨਤੀਜੇ ਇੱਥੇ ਸੁਰੱਖਿਅਤ ਰਹਿਣਗੇ।</string>
+    <string name="history_saved_toast">ਗਣਨਾ ਇਤਿਹਾਸ ਵਿੱਚ ਸੁਰੱਖਿਅਤ ਕੀਤੀ ਗਈ</string>
+    <string name="history_cleared_toast">ਸਾਰਾ ਇਤਿਹਾਸ ਮਿਟਾ ਦਿੱਤਾ ਗਿਆ</string>
+    <string name="dialog_delete_title">ਰਿਕਾਰਡ ਮਿਟਾਉਣਾ ਹੈ?</string>
+    <string name="dialog_delete_desc">ਕੀ ਤੁਸੀਂ ਇਸ ਗਣਨਾ ਨੂੰ ਇਤਿਹਾਸ ਵਿੱਚੋਂ ਹਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?</string>
+    <string name="dialog_clear_all_title">ਸਾਰਾ ਇਤਿਹਾਸ ਮਿਟਾਉਣਾ ਹੈ?</string>
+    <string name="dialog_clear_all_desc">ਸਾਰੇ ਸੁਰੱਖਿਅਤ ਰਿਕਾਰਡ ਮਿਟਾ ਦਿੱਤੇ ਜਾਣਗੇ। ਇਸਨੂੰ ਵਾਪਸ ਨਹੀਂ ਲਿਆਂਦਾ ਜਾ ਸਕਦਾ।</string>
+    <string name="dialog_history_detail_title">ਗਣਨਾ ਵੇਰਵੇ</string>
+    <string name="detail_period">ਮਿਆਦ: %1$s ਤੋਂ %2$s</string>
+
+    <!-- First Launch Language Selection -->
+    <string name="language_select_title">ਆਪਣੀ ਭਾਸ਼ਾ ਚੁਣੋ</string>
+    <string name="language_select_subtitle">ਵਿਆਜ ਗਣਨਾ ਲਈ ਆਪਣੀ ਪਸੰਦੀਦਾ ਭਾਸ਼ਾ ਚੁਣੋ। ਤੁਸੀਂ ਇਸਨੂੰ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਕਦੇ ਵੀ ਬਦਲ ਸਕਦੇ ਹੋ।</string>
+
+    <!-- Settings Screen -->
+    <string name="title_settings">ਸੈਟਿੰਗਾਂ</string>
+    <string name="section_preferences">ਤਰਜੀਹਾਂ</string>
+    <string name="setting_language">ਭਾਸ਼ਾ</string>
+    <string name="setting_theme">ਥੀਮ</string>
+    <string name="theme_system">ਸਿਸਟਮ ਡਿਫੌਲਟ</string>
+    <string name="theme_light">ਲਾਈਟ ਥੀਮ</string>
+    <string name="theme_dark">ਡਾਰਕ ਥੀਮ</string>
+    <string name="setting_currency">ਕਰੰਸੀ ਚਿੰਨ੍ਹ</string>
+    <string name="currency_inr">₹ ਭਾਰਤੀ ਰੁਪਿਆ (INR)</string>
+    <string name="currency_usd">$ ਅਮਰੀਕੀ ਡਾਲਰ (USD)</string>
+    <string name="currency_eur">€ ਯੂਰੋ (EUR)</string>
+    <string name="currency_gbp">£ ਬ੍ਰਿਟਿਸ਼ ਪੌਂਡ (GBP)</string>
+    <string name="section_storage">ਡਾਟਾ ਅਤੇ ਸਟੋਰੇਜ</string>
+    <string name="setting_clear_history">ਸਾਰਾ ਇਤਿਹਾਸ ਸਾਫ਼ ਕਰੋ</string>
+    <string name="setting_clear_history_sub">ਸਥਾਨਕ ਸਟੋਰੇਜ ਤੋਂ ਸਾਰੀਆਂ ਗਣਨਾਵਾਂ ਮਿਟਾਓ</string>
+    <string name="section_about">ਜਾਣਕਾਰੀ ਅਤੇ ਕਾਨੂੰਨੀ</string>
+    <string name="about_privacy">ਪਰਦੇਦਾਰੀ ਨੀਤੀ</string>
+    <string name="about_terms">ਵਰਤੋਂ ਦੀਆਂ ਸ਼ਰਤਾਂ</string>
+    <string name="about_version">ਵਰਜਨ</string>
+    <string name="about_offline_badge">100% ਔਫਲਾਈਨ ਅਤੇ ਸੁਰੱਖਿਅਤ</string>
+    <string name="about_offline_desc">ਸਾਰਾ ਡਾਟਾ ਤੁਹਾਡੇ ਫ਼ੋਨ ਵਿੱਚ ਹੀ ਸੁਰੱਖਿਅਤ ਰਹਿੰਦਾ ਹੈ। ਕਿਸੇ ਲੌਗਇਨ ਦੀ ਲੋੜ ਨਹੀਂ।</string>
+
+    <!-- Privacy Policy Dialog -->
+    <string name="privacy_title">ਪਰਦੇਦਾਰੀ ਨੀਤੀ</string>
+    <string name="privacy_updated">ਆਖਰੀ ਅੱਪਡੇਟ: 2026</string>
+    <string name="privacy_sec1_title">1. ਜ਼ੀਰੋ ਨਿੱਜੀ ਡਾਟਾ ਇਕੱਠਾ ਕਰਨਾ</string>
+    <string name="privacy_sec1_desc">ਵਿਆਜ ਕੈਲਕੁਲੇਟਰ ਤੁਹਾਡੀ ਨਿੱਜਤਾ ਦਾ ਪੂਰਾ ਸਤਿਕਾਰ ਕਰਦਾ ਹੈ। ਅਸੀਂ ਕੋਈ ਨਿੱਜੀ ਜਾਂ ਵਿੱਤੀ ਜਾਣਕਾਰੀ ਇਕੱਠੀ ਨਹੀਂ ਕਰਦੇ।</string>
+    <string name="privacy_sec2_title">2. 100% ਔਫਲਾਈਨ ਪ੍ਰਣਾਲੀ</string>
+    <string name="privacy_sec2_desc">ਸਾਰੀਆਂ ਗਣਨਾਵਾਂ ਕੇਵਲ ਤੁਹਾਡੇ ਫੋਨ ਦੀ ਸਥਾਨਕ ਮੈਮੋਰੀ ਵਿੱਚ ਰਹਿੰਦੀਆਂ ਹਨ।</string>
+    <string name="privacy_sec3_title">3. ਕੋਈ ਸੰਵੇਦਨਸ਼ੀਲ ਇਜਾਜ਼ਤ ਨਹੀਂ</string>
+    <string name="privacy_sec3_desc">ਐਪ ਕੈਮਰਾ, ਸੰਪਰਕ ਜਾਂ ਸਥਾਨ ਦੀ ਇਜਾਜ਼ਤ ਨਹੀਂ ਮੰਗਦਾ।</string>
+    <string name="privacy_sec4_title">4. ਪੂਰਾ ਉਪਭੋਗਤਾ ਨਿਯੰਤਰਣ</string>
+    <string name="privacy_sec4_desc">ਸੈਟਿੰਗਾਂ ਤੋਂ ਕਦੇ ਵੀ ਤੁਸੀਂ ਸਾਰਾ ਇਤਿਹਾਸ ਮਿਟਾ ਸਕਦੇ ਹੋ।</string>
+
+    <!-- Terms of Use Dialog -->
+    <string name="terms_title">ਵਰਤੋਂ ਦੀਆਂ ਸ਼ਰਤਾਂ</string>
+    <string name="terms_sec1_title">1. ਸਿਰਫ਼ ਜਾਣਕਾਰੀ ਦੇ ਮਕਸਦ ਲਈ</string>
+    <string name="terms_sec1_desc">ਇਹ ਇੱਕ ਗਣਿਤਕ ਗਣਨਾ ਸਾਧਨ ਹੈ। ਇਹ ਕੋਈ ਕਾਨੂੰਨੀ ਜਾਂ ਵਿੱਤੀ ਸਲਾਹ ਨਹੀਂ ਹੈ।</string>
+    <string name="terms_sec2_title">2. ਗਣਨਾ ਦੀ ਸ਼ੁੱਧਤਾ</string>
+    <string name="terms_sec2_desc">ਭਾਰਤੀ ਰਵਾਇਤੀ ਵਿਆਜ ਪ੍ਰਣਾਲੀ ਅਨੁਸਾਰ ਬਿਲਕੁਲ ਸਹੀ ਗਣਨਾ ਕੀਤੀ ਜਾਂਦੀ ਹੈ।</string>
+    <string name="terms_sec3_title">3. ਲਾਇਸੰਸ</string>
+    <string name="terms_sec3_desc">ਨਿੱਜੀ ਅਤੇ ਵਪਾਰਕ ਵਰਤੋਂ ਲਈ ਮੁਫ਼ਤ ਉਪਲਬਧ ਹੈ।</string>
+
+    <!-- Share template -->
+    <string name="share_header">ਵਿਆਜ ਗਣਨਾ (VADDI CALCULATION)</string>
+    <string name="share_principal">ਮੂਲ ਰਕਮ: %1$s</string>
+    <string name="share_rate">ਵਿਆਜ ਦਰ: %1$s</string>
+    <string name="share_duration">ਮਿਆਦ: %1$s</string>
+    <string name="share_monthly_interest">ਮਹੀਨਾਵਾਰ ਵਿਆਜ: %1$s</string>
+    <string name="share_total_interest">ਕੁੱਲ ਵਿਆਜ: %1$s</string>
+    <string name="share_total_amount">ਕੁੱਲ ਰਕਮ: %1$s</string>
+    <string name="share_footer">ਵਿਆਜ ਕੈਲਕੁਲੇਟਰ ਦੁਆਰਾ ਗਿਣਿਆ ਗਿਆ (100% ਔਫਲਾਈਨ)</string>
+</resources>

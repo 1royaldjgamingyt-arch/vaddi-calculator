@@ -1,0 +1,177 @@
+<resources>
+    <string name="app_name">പലിശ കാൽക്കുലേറ്റർ</string>
+    <string name="app_tagline">ലളിതവും കൃത്യവുമായ പലിശ കാൽക്കുലേറ്റർ</string>
+
+    <!-- Navigation -->
+    <string name="nav_quick_vaddi">ദ്രുത പലിശ</string>
+    <string name="nav_date_vaddi">തീയതി പലിശ</string>
+    <string name="nav_calculator">കാൽക്കുലേറ്റർ</string>
+    <string name="nav_history">ചരിത്രം</string>
+    <string name="nav_settings">ക്രമീകരണങ്ങൾ</string>
+
+    <!-- Calculator Modes -->
+    <string name="mode_quick">ദ്രുത കാൽക്കുലേറ്റർ</string>
+    <string name="mode_quick_desc">കാലാവധി പ്രകാരം കണക്കുകൂട്ടുക (മാസങ്ങൾ / വർഷങ്ങൾ / ദിവസങ്ങൾ)</string>
+    <string name="mode_date">തീയതി കാൽക്കുലേറ്റർ</string>
+    <string name="mode_date_desc">രണ്ട് തീയതികൾക്കിടയിലെ പലിശ കണക്കുകൂട്ടുക</string>
+
+    <!-- Schemes -->
+    <string name="scheme_simple">സാധാരണ പലിശ</string>
+    <string name="scheme_compound">കൂട്ടുപലിശ</string>
+
+    <!-- Form Labels & Placeholders -->
+    <string name="label_principal">മുതൽ തുക</string>
+    <string name="hint_principal">1,00,000</string>
+    <string name="label_interest_rate">പലിശ നിരക്ക്</string>
+    <string name="hint_interest_rate">2</string>
+    <string name="label_interest_type">പലിശ തരം</string>
+    <string name="label_duration">കാലാവധി</string>
+    <string name="hint_duration">6</string>
+
+    <!-- Interest Types -->
+    <string name="type_monthly">പ്രതിമാസം</string>
+    <string name="type_yearly">പ്രതിവർഷം</string>
+    <string name="type_daily">പ്രതിദിനം</string>
+
+    <!-- Rate display badges -->
+    <string name="rate_badge_monthly">%1$s%% പ്രതിമാസം</string>
+    <string name="rate_badge_yearly">%1$s%% പ്രതിവർഷം</string>
+    <string name="rate_badge_daily">%1$s%% പ്രതിദിനം</string>
+
+    <!-- Dynamic Duration Units -->
+    <string name="duration_unit_monthly">മാസങ്ങൾ</string>
+    <string name="duration_unit_yearly">വർഷങ്ങൾ</string>
+    <string name="duration_unit_daily">ദിവസങ്ങൾ</string>
+
+    <string name="unit_months">മാസങ്ങൾ</string>
+    <string name="unit_years">വർഷങ്ങൾ</string>
+    <string name="unit_days">ദിവസങ്ങൾ</string>
+
+    <!-- Helper text -->
+    <string name="vaddi_helper_text">ഉദാഹരണം: ₹1,00,000-ന് 2% പ്രതിമാസം = ₹2,000 പലിശ/മാസം</string>
+
+    <!-- Date Selection -->
+    <string name="label_start_date">തുടങ്ങുന്ന തീയതി</string>
+    <string name="label_end_date">അവസാന തീയതി</string>
+    <string name="select_date">തീയതി തിരഞ്ഞെടുക്കുക</string>
+    <string name="date_calc_title">തീയതി പലിശ കാൽക്കുലേറ്റർ</string>
+    <string name="date_calc_subtitle">രണ്ട് തീയതികൾ തമ്മിലുള്ള കൃത്യമായ പലിശ കണക്കുകൂട്ടൽ</string>
+    <string name="date_completed_months">പൂർത്തിയായ മാസങ്ങൾ</string>
+    <string name="date_remaining_days">ബാക്കി ദിവസങ്ങൾ</string>
+    <string name="date_total_days">ആകെ ദിവസങ്ങൾ</string>
+    <string name="date_calc_method_title">കണക്കുകൂട്ടൽ വിവരണം</string>
+
+    <!-- Actions -->
+    <string name="btn_calculate">കണക്കാക്കുക</string>
+    <string name="btn_recalculate">വീണ്ടും കണക്കാക്കുക</string>
+    <string name="btn_clear">റീസെറ്റ്</string>
+    <string name="btn_share">പങ്കുവെക്കുക</string>
+    <string name="btn_save">സേവ് ചെയ്യുക</string>
+    <string name="btn_saved">സേവ് ചെയ്തു</string>
+    <string name="btn_delete">മായ്ക്കുക</string>
+    <string name="btn_clear_all">എല്ലാം മായ്ക്കുക</string>
+    <string name="btn_confirm">സ്ഥിരീകരിക്കുക</string>
+    <string name="btn_cancel">റദ്ദാക്കുക</string>
+    <string name="btn_close">അടയ്ക്കുക</string>
+    <string name="btn_continue">തുടരുക</string>
+    <string name="btn_understood">മനസ്സിലായി</string>
+    <string name="btn_agree">ഞാൻ സമ്മതിക്കുന്നു</string>
+    <string name="btn_open_in_calc">കാൽക്കുലേറ്ററിൽ തുറക്കുക</string>
+
+    <!-- Result Card -->
+    <string name="title_result">കണക്കുകൂട്ടൽ ഫലം</string>
+    <string name="result_principal">മുതൽ തുക</string>
+    <string name="result_rate">പലിശ നിരക്ക്</string>
+    <string name="result_duration">കാലാവധി</string>
+    <string name="result_monthly_vaddi">പ്രതിമാസ പലിശ</string>
+    <string name="result_interest">ആകെ പലിശ</string>
+    <string name="result_total">ആകെ നൽകേണ്ട തുക</string>
+    <string name="result_total_payable">ആകെ നൽകേണ്ട തുക</string>
+    <string name="result_period">കാലയളവ്</string>
+    <string name="result_breakdown">വിശദാംശങ്ങൾ</string>
+    <string name="result_formula">സൂത്രവാക്യം</string>
+    <string name="result_daily_interest">ദിവസേനയുള്ള പലിശ</string>
+    <string name="result_monthly_interest">പ്രതിമാസ പലിശ</string>
+    <string name="result_total_days">ആകെ ദിവസങ്ങൾ</string>
+    <string name="duration_breakdown">കാലാവധി വിശദാംശങ്ങൾ</string>
+
+    <!-- Validation Errors -->
+    <string name="err_principal_empty">ദയവായി മുതൽ തുക നൽകുക</string>
+    <string name="err_principal_invalid">മുതൽ തുക പൂജ്യത്തേക്കാൾ വലുതായിരിക്കണം</string>
+    <string name="err_rate_empty">ദയവായി പലിശ നിരക്ക് നൽകുക</string>
+    <string name="err_rate_invalid">പലിശ നിരക്ക് പൂജ്യത്തേക്കാൾ വലുതായിരിക്കണം</string>
+    <string name="err_duration_empty">ദയവായി കാലാവധി നൽകുക</string>
+    <string name="err_duration_invalid">കാലാവധി പൂജ്യത്തേക്കാൾ വലുതായിരിക്കണം</string>
+    <string name="err_date_order">അവസാന തീയതി ആരംഭ തീയതിക്ക് മുമ്പാകരുത്</string>
+
+    <!-- History Screen -->
+    <string name="title_history">ചരിത്രം</string>
+    <string name="history_empty_title">ചരിത്രമൊന്നും ലഭ്യമല്ല</string>
+    <string name="history_empty_desc">നിങ്ങൾ കണക്കുകൂട്ടിയ പലിശ വിവരങ്ങൾ ഇവിടെ സൂക്ഷിക്കപ്പെടും.</string>
+    <string name="history_saved_toast">വിവരങ്ങൾ സേവ് ചെയ്തു</string>
+    <string name="history_cleared_toast">മുഴുവൻ ചരിത്രവും മായ്ച്ചു</string>
+    <string name="dialog_delete_title">റെക്കോർഡ് മായ്ക്കണോ?</string>
+    <string name="dialog_delete_desc">ഈ കണക്കുകൂട്ടൽ വിവരങ്ങൾ നീക്കം ചെയ്യണോ?</string>
+    <string name="dialog_clear_all_title">എല്ലാം മായ്ക്കണോ?</string>
+    <string name="dialog_clear_all_desc">സൂക്ഷിച്ച എല്ലാ വിവരങ്ങളും നീക്കം ചെയ്യപ്പെടും. ഇത് പഴയപടിയാക്കാൻ കഴിയില്ല.</string>
+    <string name="dialog_history_detail_title">വിശദാംശങ്ങൾ</string>
+    <string name="detail_period">കാലയളവ്: %1$s മുതൽ %2$s വരെ</string>
+
+    <!-- First Launch Language Selection -->
+    <string name="language_select_title">ഭാഷ തിരഞ്ഞെടുക്കുക</string>
+    <string name="language_select_subtitle">പലിശ കണക്കുകൂട്ടലുകൾക്കായി നിങ്ങളുടെ പ്രിയപ്പെട്ട ഭാഷ തിരഞ്ഞെടുക്കുക. ക്രമീകരണങ്ങളിൽ ഇത് എപ്പോൾ വേണമെങ്കിലും മാറ്റാം.</string>
+
+    <!-- Settings Screen -->
+    <string name="title_settings">ക്രമീകരണങ്ങൾ</string>
+    <string name="section_preferences">മുൻഗണനകൾ</string>
+    <string name="setting_language">ഭാഷ</string>
+    <string name="setting_theme">തീം</string>
+    <string name="theme_system">സിസ്റ്റം ഡിഫോൾട്ട്</string>
+    <string name="theme_light">ലൈറ്റ് തീം</string>
+    <string name="theme_dark">ഡാർക്ക് തീം</string>
+    <string name="setting_currency">കറൻസി ചിഹ്നം</string>
+    <string name="currency_inr">₹ ഇന്ത്യൻ രൂപ (INR)</string>
+    <string name="currency_usd">$ യുഎസ് ഡോളർ (USD)</string>
+    <string name="currency_eur">€ യൂറോ (EUR)</string>
+    <string name="currency_gbp">£ ബ്രിട്ടീഷ് പൗണ്ട് (GBP)</string>
+    <string name="section_storage">ഡാറ്റ &amp; സംഭരണം</string>
+    <string name="setting_clear_history">മുഴുവൻ ചരിത്രവും മായ്ക്കുക</string>
+    <string name="setting_clear_history_sub">ലോക്കൽ സംഭരണത്തിൽ നിന്ന് എല്ലാ കണക്കുകൂട്ടലുകളും നീക്കം ചെയ്യുക</string>
+    <string name="section_about">വിവരങ്ങൾ &amp; നിയമപരം</string>
+    <string name="about_privacy">സ്വകാര്യതാ നയം</string>
+    <string name="about_terms">ഉപയോഗ നിബന്ധനകൾ</string>
+    <string name="about_version">പതിപ്പ്</string>
+    <string name="about_offline_badge">100% ഓഫ്‌ലൈൻ &amp; സുരക്ഷിതം</string>
+    <string name="about_offline_desc">എല്ലാ കണക്കുകൂട്ടലുകളും നിങ്ങളുടെ ഫോണിൽ മാത്രം നിലനിൽക്കും. ലോഗിൻ ആവശ്യമില്ല.</string>
+
+    <!-- Privacy Policy Dialog -->
+    <string name="privacy_title">സ്വകാര്യതാ നയം</string>
+    <string name="privacy_updated">അവസാനം പുതുക്കിയത്: 2026</string>
+    <string name="privacy_sec1_title">1. സ്വകാര്യ ഡാറ്റ ശേഖരിക്കുന്നില്ല</string>
+    <string name="privacy_sec1_desc">പലിശ കാൽക്കുലേറ്റർ നിങ്ങളുടെ സ്വകാര്യത പൂർണ്ണമായും സംരക്ഷിക്കുന്നു. വ്യക്തിഗത വിവരങ്ങളൊന്നും ഞങ്ങൾ ശേഖരിക്കുന്നില്ല.</string>
+    <string name="privacy_sec2_title">2. 100% ഓഫ്‌ലൈൻ</string>
+    <string name="privacy_sec2_desc">എല്ലാ വിവരങ്ങളും നിങ്ങളുടെ ഫോണിൽ മാത്രം സുരക്ഷിതമായിരിക്കും.</string>
+    <string name="privacy_sec3_title">3. അനാവശ്യ അനുമതികളില്ല</string>
+    <string name="privacy_sec3_desc">ആപ്പിന് ക്യാമറയോ ലൊക്കേഷനോ കോൺടാക്റ്റുകളോ ആവശ്യമില്ല.</string>
+    <string name="privacy_sec4_title">4. ഉപയോക്തൃ നിയന്ത്രണം</string>
+    <string name="privacy_sec4_desc">ക്രമീകരണങ്ങളിൽ നിന്ന് എപ്പോൾ വേണമെങ്കിലും ചരിത്രം പൂർണ്ണമായി മായ്ക്കാം.</string>
+
+    <!-- Terms of Use Dialog -->
+    <string name="terms_title">ഉപയോഗ നിബന്ധനകൾ</string>
+    <string name="terms_sec1_title">1. വിവര ആവശ്യങ്ങൾക്ക് മാത്രം</string>
+    <string name="terms_sec1_desc">ഇത് ഗണിതശാസ്ത്രപരമായ കണക്കുകൂട്ടൽ മാത്രമാണ്. നിയമപരമായ അല്ലെങ്കിൽ സാമ്പത്തിക ഉപദേശമല്ല.</string>
+    <string name="terms_sec2_title">2. കൃത്യത</string>
+    <string name="terms_sec2_desc">പരമ്പരാഗത ഇന്ത്യൻ രീതികൾക്കനുസൃതമായി കൃത്യമായി കണക്കാക്കപ്പെടുന്നു.</string>
+    <string name="terms_sec3_title">3. ലൈസൻസ്</string>
+    <string name="terms_sec3_desc">വ്യക്തിഗത ആവശ്യങ്ങൾക്കായി സൗജന്യമായി ഉപയോഗിക്കാം.</string>
+
+    <!-- Share template -->
+    <string name="share_header">പലിശ കണക്കുകൂട്ടൽ (VADDI CALCULATION)</string>
+    <string name="share_principal">മുതൽ: %1$s</string>
+    <string name="share_rate">പലിശ നിരക്ക്: %1$s</string>
+    <string name="share_duration">കാലാവധി: %1$s</string>
+    <string name="share_monthly_interest">പ്രതിമാസ പലിശ: %1$s</string>
+    <string name="share_total_interest">ആകെ പലിശ: %1$s</string>
+    <string name="share_total_amount">ആകെ തുക: %1$s</string>
+    <string name="share_footer">പലിശ കാൽക്കുലേറ്റർ വഴി കണക്കാക്കിയത് (100% ഓഫ്‌ലൈൻ)</string>
+</resources>

@@ -1,0 +1,177 @@
+<resources>
+    <string name="app_name">সূদ কেলকুলেটৰ</string>
+    <string name="app_tagline">সহজ আৰু সঠিক সূদ কেলকুলেটৰ</string>
+
+    <!-- Navigation -->
+    <string name="nav_quick_vaddi">দ্ৰুত সূদ</string>
+    <string name="nav_date_vaddi">তাৰিখ সূদ</string>
+    <string name="nav_calculator">কেলকুলেটৰ</string>
+    <string name="nav_history">ইতিহাস</string>
+    <string name="nav_settings">ছেটিংছ</string>
+
+    <!-- Calculator Modes -->
+    <string name="mode_quick">দ্ৰুত কেলকুলেটৰ</string>
+    <string name="mode_quick_desc">সময়সীমা অনুসৰি গণনা কৰক (মাহ / বছৰ / দিন)</string>
+    <string name="mode_date">তাৰিখ কেলকুলেটৰ</string>
+    <string name="mode_date_desc">দুটা কেলেণ্ডাৰ তাৰিখৰ মাজত সূদ গণনা কৰক</string>
+
+    <!-- Schemes -->
+    <string name="scheme_simple">সৰল সূদ</string>
+    <string name="scheme_compound">চক্ৰবৃদ্ধি সূদ</string>
+
+    <!-- Form Labels & Placeholders -->
+    <string name="label_principal">মূলধন</string>
+    <string name="hint_principal">1,00,000</string>
+    <string name="label_interest_rate">সূদৰ হাৰ</string>
+    <string name="hint_interest_rate">2</string>
+    <string name="label_interest_type">সূদৰ ধৰণ</string>
+    <string name="label_duration">সময়সীমা</string>
+    <string name="hint_duration">6</string>
+
+    <!-- Interest Types -->
+    <string name="type_monthly">প্ৰতি মাহে</string>
+    <string name="type_yearly">বাৰ্ষিক</string>
+    <string name="type_daily">দৈনিক</string>
+
+    <!-- Rate display badges -->
+    <string name="rate_badge_monthly">%1$s%% প্ৰতি মাহে</string>
+    <string name="rate_badge_yearly">%1$s%% বাৰ্ষিক</string>
+    <string name="rate_badge_daily">%1$s%% দৈনিক</string>
+
+    <!-- Dynamic Duration Units -->
+    <string name="duration_unit_monthly">মাহ</string>
+    <string name="duration_unit_yearly">বছৰ</string>
+    <string name="duration_unit_daily">দিন</string>
+
+    <string name="unit_months">মাহ</string>
+    <string name="unit_years">বছৰ</string>
+    <string name="unit_days">দিন</string>
+
+    <!-- Helper text -->
+    <string name="vaddi_helper_text">উদাহৰণ: ₹১,০০,০০০ টকাত ২% প্ৰতি মাহে = ₹২,০০০ সূদ/মাহ</string>
+
+    <!-- Date Selection -->
+    <string name="label_start_date">আৰম্ভণি তাৰিখ</string>
+    <string name="label_end_date">সমাপ্তি তাৰিখ</string>
+    <string name="select_date">তাৰিখ বাছনি কৰক</string>
+    <string name="date_calc_title">তাৰিখ সূদ কেলকুলেটৰ</string>
+    <string name="date_calc_subtitle">দুটা তাৰিখৰ মাজত সঠিক সূদ গণনা</string>
+    <string name="date_completed_months">সম্পূৰ্ণ মাহ</string>
+    <string name="date_remaining_days">বাকী থকা দিন</string>
+    <string name="date_total_days">মুঠ দিন</string>
+    <string name="date_calc_method_title">গণনাৰ বিৱৰণ</string>
+
+    <!-- Actions -->
+    <string name="btn_calculate">গণনা কৰক</string>
+    <string name="btn_recalculate">পুনৰ গণনা কৰক</string>
+    <string name="btn_clear">ৰিছেট</string>
+    <string name="btn_share">শ্বেয়াৰ কৰক</string>
+    <string name="btn_save">সংৰক্ষণ কৰক</string>
+    <string name="btn_saved">সংৰক্ষিত হ\'ল</string>
+    <string name="btn_delete">মচি পেলাওক</string>
+    <string name="btn_clear_all">সকলো মচক</string>
+    <string name="btn_confirm">নিশ্চিত কৰক</string>
+    <string name="btn_cancel">বাতিল কৰক</string>
+    <string name="btn_close">বন্ধ কৰক</string>
+    <string name="btn_continue">আগবাঢ়ক</string>
+    <string name="btn_understood">বুজিলোঁ</string>
+    <string name="btn_agree">মই সন্মত</string>
+    <string name="btn_open_in_calc">কেলকুলেটৰত খোলক</string>
+
+    <!-- Result Card -->
+    <string name="title_result">গণনাৰ ফলাফল</string>
+    <string name="result_principal">মূলধন</string>
+    <string name="result_rate">সূদৰ হাৰ</string>
+    <string name="result_duration">সময়সীমা</string>
+    <string name="result_monthly_vaddi">মাহেকীয়া সূদ</string>
+    <string name="result_interest">মুঠ সূদ</string>
+    <string name="result_total">মুঠ পৰিশোধ কৰিবলগীয়া ধন</string>
+    <string name="result_total_payable">মুঠ পৰিশোধ কৰিবলগীয়া ধন</string>
+    <string name="result_period">সময়সীমা</string>
+    <string name="result_breakdown">গণনাৰ বিৱৰণ</string>
+    <string name="result_formula">সূত্ৰ</string>
+    <string name="result_daily_interest">দৈনিক সূদ</string>
+    <string name="result_monthly_interest">মাহেকীয়া সূদ</string>
+    <string name="result_total_days">মুঠ দিন</string>
+    <string name="duration_breakdown">সময়সীমাৰ বিৱৰণ</string>
+
+    <!-- Validation Errors -->
+    <string name="err_principal_empty">অনুগ্ৰহ কৰি মূলধন প্ৰবিষ্ট কৰক</string>
+    <string name="err_principal_invalid">মূলধন শূন্যতকৈ অধিক হ\'ব লাগিব</string>
+    <string name="err_rate_empty">অনুগ্ৰহ কৰি সূদৰ হাৰ প্ৰবিষ্ট কৰক</string>
+    <string name="err_rate_invalid">সূদৰ হাৰ শূন্যতকৈ অধিক হ\'ব লাগিব</string>
+    <string name="err_duration_empty">অনুগ্ৰহ কৰি সময়সীমা প্ৰবিষ্ট কৰক</string>
+    <string name="err_duration_invalid">সময়সীমা শূন্যতকৈ অধিক হ\'ব লাগিব</string>
+    <string name="err_date_order">সমাপ্তি তাৰিখ আৰম্ভণি তাৰিখৰ আগৰ হ\'ব নোৱাৰে</string>
+
+    <!-- History Screen -->
+    <string name="title_history">ইতিহাস</string>
+    <string name="history_empty_title">কোনো তথ্য নাই</string>
+    <string name="history_empty_desc">আপোনাৰ সকলো গণনাৰ ফলাফল ইয়াত সংৰক্ষিত থাকিব।</string>
+    <string name="history_saved_toast">ইতিহাসত সংৰক্ষণ কৰা হ\'ল</string>
+    <string name="history_cleared_toast">সকলো ইতিহাস মচি পেলোৱা হ\'ল</string>
+    <string name="dialog_delete_title">তথ্য মচিবনে?</string>
+    <string name="dialog_delete_desc">আপুনি এই গণনা ইতিহাসৰ পৰা আঁতৰাব বিচাৰে নেকি?</string>
+    <string name="dialog_clear_all_title">সকলো ইতিহাস মচিবনে?</string>
+    <string name="dialog_clear_all_desc">সংৰক্ষিত সকলো তথ্য মচি পেলোৱা হ\'ব। ইয়াক পুনৰুদ্ধাৰ কৰিব নোৱাৰি।</string>
+    <string name="dialog_history_detail_title">গণনাৰ বিৱৰণ</string>
+    <string name="detail_period">সময়সীমা: %1$s পৰা %2$s লৈ</string>
+
+    <!-- First Launch Language Selection -->
+    <string name="language_select_title">আপোনাৰ ভাষা বাছনি কৰক</string>
+    <string name="language_select_subtitle">সূদ গণনাৰ বাবে আপোনাৰ পছন্দৰ ভাষা নিৰ্বাচন কৰক। ছেটিংছত ইয়াক যিকোনো সময়তে সলনি কৰিব পাৰিব।</string>
+
+    <!-- Settings Screen -->
+    <string name="title_settings">ছেটিংছ</string>
+    <string name="section_preferences">পছন্দসমূহ</string>
+    <string name="setting_language">ভাষা</string>
+    <string name="setting_theme">থীম</string>
+    <string name="theme_system">ছিষ্টেম ডিফল্ট</string>
+    <string name="theme_light">লাইট থীম</string>
+    <string name="theme_dark">ডাৰ্ক থীম</string>
+    <string name="setting_currency">মুদ্ৰা প্ৰতীক</string>
+    <string name="currency_inr">₹ ভাৰতীয় টকা (INR)</string>
+    <string name="currency_usd">$ আমেৰিকান ডলাৰ (USD)</string>
+    <string name="currency_eur">€ ইউৰো (EUR)</string>
+    <string name="currency_gbp">£ ব্ৰিটিছ পাউণ্ড (GBP)</string>
+    <string name="section_storage">তথ্য আৰু সংৰক্ষণ</string>
+    <string name="setting_clear_history">সকলো ইতিহাস মচক</string>
+    <string name="setting_clear_history_sub">স্থানীয় সংৰক্ষণৰ পৰা সকলো গণনা আঁতৰাওক</string>
+    <string name="section_about">তথ্য আৰু আইনী</string>
+    <string name="about_privacy">গোপনীয়তা নীতি</string>
+    <string name="about_terms">ব্যৱহাৰৰ চৰ্তাৱলী</string>
+    <string name="about_version">সংস্কৰণ</string>
+    <string name="about_offline_badge">১০০% অফলাইন আৰু সুৰক্ষিত</string>
+    <string name="about_offline_desc">সকলো তথ্য কেৱল আপোনাৰ ডিভাইচতে থাকে। কোনো লগইনৰ প্ৰয়োজন নাই।</string>
+
+    <!-- Privacy Policy Dialog -->
+    <string name="privacy_title">গোপনীয়তা নীতি</string>
+    <string name="privacy_updated">শেহতীয়া আপডেট: ২০২৬</string>
+    <string name="privacy_sec1_title">১. কোনো ব্যক্তিগত তথ্য সংগ্ৰহ কৰা নহয়</string>
+    <string name="privacy_sec1_desc">সূদ কেলকুলেটৰে আপোনাৰ গোপনীয়তাৰ সম্পূৰ্ণ সন্মান কৰে। আমি কোনো ব্যক্তিগত বা আৰ্থিক তথ্য সংগ্ৰহ নকৰোঁ।</string>
+    <string name="privacy_sec2_title">২. ১০০% অফলাইন ব্যৱস্থা</string>
+    <string name="privacy_sec2_desc">সকলো গণনা কেৱল আপোনাৰ ফোনৰ স্থানীয় ষ্টোৰেজত সংৰক্ষিত থাকে।</string>
+    <string name="privacy_sec3_title">৩. কোনো সংবেদনশীল অনুমতিৰ প্ৰয়োজন নাই</string>
+    <string name="privacy_sec3_desc">এপ্পটোৱে কেমেৰা, যোগাযোগ বা স্থানৰ কোনো অনুমতি নিবিচাৰে।</string>
+    <string name="privacy_sec4_title">৪. সম্পূৰ্ণ ব্যৱহাৰকাৰী নিয়ন্ত্ৰণ</string>
+    <string name="privacy_sec4_desc">ছেটিংছৰ পৰা আপুনি যিকোনো সময়তে সকলো ইতিহাস মচি পেলাব পাৰে।</string>
+
+    <!-- Terms of Use Dialog -->
+    <string name="terms_title">ব্যৱহাৰৰ চৰ্তাৱলী</string>
+    <string name="terms_sec1_title">১. কেৱল তথ্যৰ উদ্দেশ্যে</string>
+    <string name="terms_sec1_desc">ই এটা গাণিতিক গণনা সঁজুলি। ই কোনো আইনী বা আৰ্থিক পৰামৰ্শ নহয়।</string>
+    <string name="terms_sec2_title">২. গণনাৰ শুদ্ধতা</string>
+    <string name="terms_sec2_desc">ভাৰতীয় পৰম্পৰাগত সূদ নিয়ম অনুসৰি সঠিকভাৱে গণনা কৰা হয়।</string>
+    <string name="terms_sec3_title">৩. অনুজ্ঞাপত্ৰ</string>
+    <string name="terms_sec3_desc">ব্যক্তিগত আৰু ব্যৱসায়িক ব্যৱহাৰৰ বাবে বিনামূলীয়াকৈ উপলব্ধ।</string>
+
+    <!-- Share template -->
+    <string name="share_header">সূদ গণনা (VADDI CALCULATION)</string>
+    <string name="share_principal">মূলধন: %1$s</string>
+    <string name="share_rate">সূদৰ হাৰ: %1$s</string>
+    <string name="share_duration">সময়সীমা: %1$s</string>
+    <string name="share_monthly_interest">মাহেকীয়া সূদ: %1$s</string>
+    <string name="share_total_interest">মুঠ সূদ: %1$s</string>
+    <string name="share_total_amount">মুঠ পৰিশোধ কৰিবলগীয়া ধন: %1$s</string>
+    <string name="share_footer">সূদ কেলকুলেটৰ দ্বাৰা গণনা কৰা হ\'ল (১০০% অফলাইন)</string>
+</resources>

@@ -1,0 +1,177 @@
+<resources>
+    <string name="app_name">વ્યાજ કેલ્ક્યુલેટર</string>
+    <string name="app_tagline">સરળ અને સચોટ વ્યાજ કેલ્ક્યુલેટર</string>
+
+    <!-- Navigation -->
+    <string name="nav_quick_vaddi">ઝડપી વ્યાજ</string>
+    <string name="nav_date_vaddi">તારીખ વ્યાજ</string>
+    <string name="nav_calculator">કેલ્ક્યુલેટર</string>
+    <string name="nav_history">ઇતિહાસ</string>
+    <string name="nav_settings">સેટિંગ્સ</string>
+
+    <!-- Calculator Modes -->
+    <string name="mode_quick">ઝડપી કેલ્ક્યુલેટર</string>
+    <string name="mode_quick_desc">સમયગાળા મુજબ ગણતરી કરો (મહિના / વર્ષ / દિવસો)</string>
+    <string name="mode_date">તારીખ કેલ્ક્યુલેટર</string>
+    <string name="mode_date_desc">બે કેલેન્ડર તારીખો વચ્ચે વ્યાજ ગણો</string>
+
+    <!-- Schemes -->
+    <string name="scheme_simple">સાદું વ્યાજ</string>
+    <string name="scheme_compound">ચક્રવૃદ્ધિ વ્યાજ</string>
+
+    <!-- Form Labels & Placeholders -->
+    <string name="label_principal">મુદ્દલ રકમ</string>
+    <string name="hint_principal">1,00,000</string>
+    <string name="label_interest_rate">વ્યાજ દર</string>
+    <string name="hint_interest_rate">2</string>
+    <string name="label_interest_type">વ્યાજનો પ્રકાર</string>
+    <string name="label_duration">સમયગાળો</string>
+    <string name="hint_duration">6</string>
+
+    <!-- Interest Types -->
+    <string name="type_monthly">દર મહિને</string>
+    <string name="type_yearly">દર વર્ષે</string>
+    <string name="type_daily">દરરોજ</string>
+
+    <!-- Rate display badges -->
+    <string name="rate_badge_monthly">%1$s%% દર મહિને</string>
+    <string name="rate_badge_yearly">%1$s%% દર વર્ષે</string>
+    <string name="rate_badge_daily">%1$s%% દરરોજ</string>
+
+    <!-- Dynamic Duration Units -->
+    <string name="duration_unit_monthly">મહિના</string>
+    <string name="duration_unit_yearly">વર્ષ</string>
+    <string name="duration_unit_daily">દિવસો</string>
+
+    <string name="unit_months">મહિના</string>
+    <string name="unit_years">વર્ષ</string>
+    <string name="unit_days">દિવસો</string>
+
+    <!-- Helper text -->
+    <string name="vaddi_helper_text">ઉદાહરણ: ₹1,00,000 પર 2% દર મહિને = ₹2,000 વ્યાજ/મહિનો</string>
+
+    <!-- Date Selection -->
+    <string name="label_start_date">શરૂઆતની તારીખ</string>
+    <string name="label_end_date">અંતિમ તારીખ</string>
+    <string name="select_date">તારીખ પસંદ કરો</string>
+    <string name="date_calc_title">તારીખ વ્યાજ કેલ્ક્યુલેટર</string>
+    <string name="date_calc_subtitle">બે તારીખો વચ્ચે સચોટ વ્યાજ ગણતરી</string>
+    <string name="date_completed_months">પૂર્ણ થયેલ મહિના</string>
+    <string name="date_remaining_days">બાકીના દિવસો</string>
+    <string name="date_total_days">કુલ દિવસો</string>
+    <string name="date_calc_method_title">ગણતરીની વિગતો</string>
+
+    <!-- Actions -->
+    <string name="btn_calculate">ગણતરી કરો</string>
+    <string name="btn_recalculate">ફરીથી ગણતરી કરો</string>
+    <string name="btn_clear">રીસેટ</string>
+    <string name="btn_share">શેર કરો</string>
+    <string name="btn_save">સાચવો</string>
+    <string name="btn_saved">સાચવેલ છે</string>
+    <string name="btn_delete">કાઢી નાખો</string>
+    <string name="btn_clear_all">બધું કાઢી નાખો</string>
+    <string name="btn_confirm">પુષ્ટિ કરો</string>
+    <string name="btn_cancel">રદ કરો</string>
+    <string name="btn_close">બંધ કરો</string>
+    <string name="btn_continue">આગળ વધો</string>
+    <string name="btn_understood">સમજાયું</string>
+    <string name="btn_agree">હું સંમત છું</string>
+    <string name="btn_open_in_calc">કેલ્ક્યુલેટરમાં ખોલો</string>
+
+    <!-- Result Card -->
+    <string name="title_result">ગણતરીનું પરિણામ</string>
+    <string name="result_principal">મુદ્દલ રકમ</string>
+    <string name="result_rate">વ્યાજ દર</string>
+    <string name="result_duration">સમયગાળો</string>
+    <string name="result_monthly_vaddi">માસિક વ્યાજ</string>
+    <string name="result_interest">કુલ વ્યાજ</string>
+    <string name="result_total">કુલ ચૂકવવાપાત્ર રકમ</string>
+    <string name="result_total_payable">કુલ ચૂકવવાપાત્ર રકમ</string>
+    <string name="result_period">સમયગાળો</string>
+    <string name="result_breakdown">ગણતરી વિગત</string>
+    <string name="result_formula">સૂત્ર</string>
+    <string name="result_daily_interest">દૈનિક વ્યાજ</string>
+    <string name="result_monthly_interest">માસિક વ્યાજ</string>
+    <string name="result_total_days">કુલ દિવસો</string>
+    <string name="duration_breakdown">સમયગાળા વિગત</string>
+
+    <!-- Validation Errors -->
+    <string name="err_principal_empty">કૃપા કરીને મુદ્દલ રકમ દાખલ કરો</string>
+    <string name="err_principal_invalid">મુદ્દલ શૂન્ય કરતાં વધુ હોવું જોઈએ</string>
+    <string name="err_rate_empty">કૃપા કરીને વ્યાજ દર દાખલ કરો</string>
+    <string name="err_rate_invalid">વ્યાજ દર શૂન્ય કરતાં વધુ હોવો જોઈએ</string>
+    <string name="err_duration_empty">કૃપા કરીને સમયગાળો દાખલ કરો</string>
+    <string name="err_duration_invalid">સમયગાળો શૂન્ય કરતાં વધુ હોવો જોઈએ</string>
+    <string name="err_date_order">અંતિમ તારીખ શરૂઆતની તારીખ પહેલાં ન હોઈ શકે</string>
+
+    <!-- History Screen -->
+    <string name="title_history">ઇતિહાસ</string>
+    <string name="history_empty_title">કોઈ રેકોર્ડ નથી</string>
+    <string name="history_empty_desc">તમારી બધી વ્યાજ ગણતરીઓ અહીં સાચવવામાં આવશે.</string>
+    <string name="history_saved_toast">ગણતરી ઇતિહાસમાં સાચવી</string>
+    <string name="history_cleared_toast">બધો ઇતિહાસ કાઢી નાખ્યો</string>
+    <string name="dialog_delete_title">રેકોર્ડ કાઢી નાખવો છે?</string>
+    <string name="dialog_delete_desc">શું તમે આ ગણતરીને ઇતિહાસમાંથી કાઢી નાખવા માંગો છો?</string>
+    <string name="dialog_clear_all_title">બધો ઇતિહાસ કાઢી નાખવો છે?</string>
+    <string name="dialog_clear_all_desc">બધી સાચવેલી ગણતરીઓ કાઢી નાખવામાં આવશે. આ પાછું લાવી શકાશે નહીં.</string>
+    <string name="dialog_history_detail_title">ગણતરી વિગતો</string>
+    <string name="detail_period">સમયગાળો: %1$s થી %2$s</string>
+
+    <!-- First Launch Language Selection -->
+    <string name="language_select_title">તમારી ભાષા પસંદ કરો</string>
+    <string name="language_select_subtitle">વ્યાજ ગણતરી માટે તમારી મનપસંદ ભાષા પસંદ કરો. સેટિંગ્સમાં આ ગમે ત્યારે બદલી શકાય છે.</string>
+
+    <!-- Settings Screen -->
+    <string name="title_settings">સેટિંગ્સ</string>
+    <string name="section_preferences">પસંદગીઓ</string>
+    <string name="setting_language">ભાષા</string>
+    <string name="setting_theme">થીમ</string>
+    <string name="theme_system">સિસ્ટમ ડિફૉલ્ટ</string>
+    <string name="theme_light">લાઇટ થીમ</string>
+    <string name="theme_dark">ડાર્ક થીમ</string>
+    <string name="setting_currency">ચલણ ચિહ્ન</string>
+    <string name="currency_inr">₹ ભારતીય રૂપિયો (INR)</string>
+    <string name="currency_usd">$ યુએસ ડૉલર (USD)</string>
+    <string name="currency_eur">€ યુરો (EUR)</string>
+    <string name="currency_gbp">£ બ્રિટિશ પાઉન્ડ (GBP)</string>
+    <string name="section_storage">ડેટા અને સ્ટોરેજ</string>
+    <string name="setting_clear_history">બધો ઇતિહાસ સાફ કરો</string>
+    <string name="setting_clear_history_sub">સ્થાનિક સ્ટોરેજમાંથી બધી ગણતરીઓ કાઢી નાખો</string>
+    <string name="section_about">માહિતી અને કાનૂની</string>
+    <string name="about_privacy">ગોપનીયતા નીતિ</string>
+    <string name="about_terms">ઉપયોગની શરતો</string>
+    <string name="about_version">આવૃત્તિ</string>
+    <string name="about_offline_badge">100% ઑફલાઇન અને સુરક્ષિત</string>
+    <string name="about_offline_desc">બધો ડેટા તમારા ફોનમાં જ સુરક્ષિત રહે છે. કોઈ લોગિન જરૂરી નથી.</string>
+
+    <!-- Privacy Policy Dialog -->
+    <string name="privacy_title">ગોપનીયતા નીતિ</string>
+    <string name="privacy_updated">છેલ્લું અપડેટ: 2026</string>
+    <string name="privacy_sec1_title">1. કોઈ અંગત ડેટા સંગ્રહ નહીં</string>
+    <string name="privacy_sec1_desc">વ્યાજ કેલ્ક્યુલેટર તમારી ગોપનીયતાનું સંપૂર્ણ રક્ષણ કરે છે. અમે કોઈપણ વ્યક્તિગત માહિતી એકત્ર કરતા નથી.</string>
+    <string name="privacy_sec2_title">2. 100% ઑફલાઇન સુવિધા</string>
+    <string name="privacy_sec2_desc">બધી ગણતરીઓ ફક્ત તમારા સ્થાનિક ઉપકરણ પર જ રહે છે.</string>
+    <string name="privacy_sec3_title">3. કોઈ સંવેદનશીલ પરવાનગીઓ નથી</string>
+    <string name="privacy_sec3_desc">એપ કેમેરા, સંપર્કો અથવા સ્થાનની કોઈ પરવાનગી માંગતી નથી.</string>
+    <string name="privacy_sec4_title">4. સંપૂર્ણ વપરાશકર્તા નિયંત્રણ</string>
+    <string name="privacy_sec4_desc">સેટિંગ્સમાંથી તમે ગમે ત્યારે બધો ઇતિહાસ કાઢી શકો છો.</string>
+
+    <!-- Terms of Use Dialog -->
+    <string name="terms_title">ઉપયોગની શરતો</string>
+    <string name="terms_sec1_title">1. માત્ર માહિતીના હેતુ માટે</string>
+    <string name="terms_sec1_desc">આ એક ગણતરીનું સાધન છે. આ કોઈ કાનૂની કે કર સલાહ નથી.</string>
+    <string name="terms_sec2_title">2. ગણતરીની ચોકસાઈ</string>
+    <string name="terms_sec2_desc">પરંપરાગત ભારતીય વ્યાજ પદ્ધતિ અનુસાર ચોકસાઈપૂર્વક ગણતરી થાય છે.</string>
+    <string name="terms_sec3_title">3. લાઇસન્સ</string>
+    <string name="terms_sec3_desc">વ્યક્તિગત અને વ્યાવસાયિક ઉપયોગ માટે મફત ઉપલબ્ધ છે.</string>
+
+    <!-- Share template -->
+    <string name="share_header">વ્યાજ ગણતરી (VADDI CALCULATION)</string>
+    <string name="share_principal">મુદ્દલ: %1$s</string>
+    <string name="share_rate">વ્યાજ દર: %1$s</string>
+    <string name="share_duration">સમયગાળો: %1$s</string>
+    <string name="share_monthly_interest">માસિક વ્યાજ: %1$s</string>
+    <string name="share_total_interest">કુલ વ્યાજ: %1$s</string>
+    <string name="share_total_amount">કુલ રકમ: %1$s</string>
+    <string name="share_footer">વ્યાજ કેલ્ક્યુલેટર દ્વારા ગણતરી કરેલ (100% ઑફલાઇન)</string>
+</resources>

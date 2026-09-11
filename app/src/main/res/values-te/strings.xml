@@ -1,0 +1,186 @@
+<resources>
+    <string name="app_name">వడ్డీ కాలిక్యులేటర్</string>
+    <string name="app_tagline">సులభమైన &amp; ఖచ్చితమైన వడ్డీ కాలిక్యులేటర్</string>
+
+    <!-- Navigation -->
+    <string name="nav_quick_vaddi">త్వరిత వడ్డీ</string>
+    <string name="nav_date_vaddi">తేదీ వడ్డీ</string>
+    <string name="nav_calculator">కాలిక్యులేటర్</string>
+    <string name="nav_history">చరిత్ర</string>
+    <string name="nav_settings">సెట్టింగ్‌లు</string>
+
+    <!-- Calculator Modes -->
+    <string name="mode_quick">త్వరిత కాలిక్యులేటర్</string>
+    <string name="mode_quick_desc">వ్యవధి ఆధారంగా లెక్కించండి (నెలలు / సంవత్సరాలు / రోజులు)</string>
+    <string name="mode_date">తేదీ కాలిక్యులేటర్</string>
+    <string name="mode_date_desc">రెండు క్యాలెండర్ తేదీల మధ్య లెక్కించండి</string>
+
+    <!-- Schemes -->
+    <string name="scheme_simple">సాధారణ వడ్డీ</string>
+    <string name="scheme_compound">చక్రవడ్డీ</string>
+
+    <!-- Form Labels & Placeholders -->
+    <string name="label_principal">అసలు మొత్తం</string>
+    <string name="hint_principal">1,00,000</string>
+    <string name="label_interest_rate">వడ్డీ రేటు</string>
+    <string name="label_interest_rate_monthly">నెలవారీ వడ్డీ %</string>
+    <string name="label_interest_rate_yearly">వార్షిక వడ్డీ %</string>
+    <string name="label_interest_rate_daily">రోజువారీ వడ్డీ %</string>
+    <string name="hint_interest_rate">2</string>
+    <string name="label_interest_type">వడ్డీ రకం</string>
+    <string name="label_duration">కాలపరిమితి</string>
+    <string name="hint_duration">6</string>
+
+    <!-- Interest Types -->
+    <string name="type_monthly">నెలకు</string>
+    <string name="type_yearly">సంవత్సరానికి</string>
+    <string name="type_daily">రోజుకు</string>
+
+    <!-- Rate display badges -->
+    <string name="rate_badge_monthly">%1$s%% నెలకు</string>
+    <string name="rate_badge_yearly">%1$s%% సంవత్సరానికి</string>
+    <string name="rate_badge_daily">%1$s%% రోజుకు</string>
+
+    <!-- Dynamic Duration Units -->
+    <string name="duration_unit_monthly">నెలలు</string>
+    <string name="duration_unit_yearly">సంవత్సరాలు</string>
+    <string name="duration_unit_daily">రోజులు</string>
+
+    <string name="unit_months">నెలలు</string>
+    <string name="unit_years">సంవత్సరాలు</string>
+    <string name="unit_days">రోజులు</string>
+
+    <!-- Helper text -->
+    <string name="vaddi_helper_text">%1$sకి %2$s%% %3$s = %4$s / %5$s</string>
+    <string name="vaddi_helper_default">ఉదాహరణ: ₹1,00,000కి 2% నెలకు = ₹2,000 వడ్డీ</string>
+
+    <!-- Date Selection -->
+    <string name="label_start_date">ప్రారంభ తేదీ</string>
+    <string name="label_end_date">ముగింపు తేదీ</string>
+    <string name="select_date">తేదీని ఎంచుకోండి</string>
+    <string name="date_calc_title">తేదీ వడ్డీ కాలిక్యులేటర్</string>
+    <string name="date_calc_subtitle">రెండు క్యాలెండర్ తేదీల మధ్య ఖచ్చితమైన వడ్డీ లెక్కింపు</string>
+    <string name="date_completed_months">పూర్తయిన నెలలు</string>
+    <string name="date_remaining_days">మిగిలిన రోజులు</string>
+    <string name="date_total_days">మొత్తం రోజులు</string>
+    <string name="date_calc_method_title">లెక్కింపు వివరణ</string>
+
+    <!-- Actions -->
+    <string name="btn_calculate">వడ్డీ లెక్కించండి</string>
+    <string name="btn_recalculate">మళ్లీ లెక్కించు</string>
+    <string name="btn_clear">రిసెట్</string>
+    <string name="btn_share">షేర్ చేయి</string>
+    <string name="btn_save">సేవ్ చేయి</string>
+    <string name="btn_saved">సేవ్ చేయబడింది</string>
+    <string name="btn_delete">తొలగించు</string>
+    <string name="btn_clear_all">అన్నీ తొలగించు</string>
+    <string name="btn_confirm">నిర్ధారించు</string>
+    <string name="btn_cancel">రద్దు చేయి</string>
+    <string name="btn_close">మూసివేయి</string>
+    <string name="btn_continue">కొనసాగించండి</string>
+    <string name="btn_understood">అర్థమైంది</string>
+    <string name="btn_agree">నేను అంగీకరిస్తున్నాను</string>
+    <string name="btn_open_in_calc">కాలిక్యులేటర్‌లో తెరవండి</string>
+
+    <!-- Result Card -->
+    <string name="title_result">ఫలితం</string>
+    <string name="result_principal">అసలు మొత్తం</string>
+    <string name="result_rate">వడ్డీ రేటు</string>
+    <string name="result_duration">కాలపరిమితి</string>
+    <string name="result_monthly_vaddi">నెలకు వడ్డీ</string>
+    <string name="result_yearly_vaddi">సంవత్సరానికి వడ్డీ</string>
+    <string name="result_daily_vaddi">రోజుకు వడ్డీ</string>
+    <string name="result_interest">మొత్తం వడ్డీ</string>
+    <string name="result_total">మొత్తం సొమ్ము</string>
+    <string name="result_total_payable">మొత్తం చెల్లించాల్సిన సొమ్ము</string>
+    <string name="result_period">కాలం</string>
+    <string name="result_breakdown">లెక్కింపు వివరాలు</string>
+    <string name="result_formula">సూత్రం</string>
+    <string name="result_daily_interest">రోజువారీ వడ్డీ</string>
+    <string name="result_monthly_interest">నెలకు వడ్డీ</string>
+    <string name="result_total_days">మొత్తం రోజులు</string>
+    <string name="duration_breakdown">వ్యవధి వివరాలు</string>
+
+    <!-- Validation Errors -->
+    <string name="err_principal_empty">దయచేసి అసలు మొత్తాన్ని నమోదు చేయండి</string>
+    <string name="err_principal_invalid">అసలు మొత్తం సున్నా కంటే ఎక్కువగా ఉండాలి</string>
+    <string name="err_rate_empty">దయచేసి వడ్డీ రేటును నమోదు చేయండి</string>
+    <string name="err_rate_invalid">వడ్డీ రేటు సున్నా కంటే ఎక్కువగా ఉండాలి</string>
+    <string name="err_duration_empty">దయచేసి కాలపరిమితిని నమోదు చేయండి</string>
+    <string name="err_duration_invalid">కాలపరిమితి సున్నా కంటే ఎక్కువగా ఉండాలి</string>
+    <string name="err_date_order">ముగింపు తేదీ ప్రారంభ తేదీ కంటే ముందు ఉండకూడదు</string>
+
+    <!-- History Screen -->
+    <string name="title_history">చరిత్ర</string>
+    <string name="history_empty_title">ఇంతవరకు చరిత్ర లేదు</string>
+    <string name="history_empty_desc">మీరు లెక్కించిన వడ్డీ ఫలితాలు సులభ సూచన కోసం ఇక్కడ భద్రపరచబడతాయి.</string>
+    <string name="history_saved_toast">లెక్కింపు చరిత్రలో భద్రపరచబడింది</string>
+    <string name="history_cleared_toast">మొత్తం చరిత్ర తొలగించబడింది</string>
+    <string name="dialog_delete_title">లెక్కింపును తొలగించాలా?</string>
+    <string name="dialog_delete_desc">మీరు ఈ లెక్కింపు రికార్డును చరిత్ర నుండి తొలగించాలనుకుంటున్నారా?</string>
+    <string name="dialog_clear_all_title">మొత్తం చరిత్రను తొలగించాలా?</string>
+    <string name="dialog_clear_all_desc">సేవ్ చేయబడిన అన్ని లెక్కింపులు తొలగించబడతాయి. దీన్ని రద్దు చేయలేరు.</string>
+    <string name="dialog_history_detail_title">లెక్కింపు వివరాలు</string>
+    <string name="detail_period">కాలం: %1$s నుండి %2$s వరకు</string>
+
+    <!-- First Launch Language Selection -->
+    <string name="language_select_title">మీ భాషను ఎంచుకోండి</string>
+    <string name="language_select_subtitle">వడ్డీ లెక్కింపుల కోసం మీ ప్రాధాన్య భాషను ఎంచుకోండి. సెట్టింగ్‌లలో దీన్ని ఎప్పుడైనా మార్చవచ్చు.</string>
+
+    <!-- Settings Screen -->
+    <string name="title_settings">సెట్టింగ్‌లు</string>
+    <string name="section_preferences">ప్రాధాన్యతలు</string>
+    <string name="setting_language">భాష</string>
+    <string name="setting_theme">థీమ్</string>
+    <string name="theme_system">సిస్టమ్ డిఫాల్ట్</string>
+    <string name="theme_light">లైట్ థీమ్</string>
+    <string name="theme_dark">డార్క్ థీమ్</string>
+    <string name="setting_currency">కరెన్సీ చిహ్నం</string>
+    <string name="currency_inr">₹ భారతీయ రూపాయి (INR)</string>
+    <string name="currency_usd">$ అమెరికన్ డాలర్ (USD)</string>
+    <string name="currency_eur">€ యూరో (EUR)</string>
+    <string name="currency_gbp">£ బ్రిటిష్ పౌండ్ (GBP)</string>
+    <string name="section_storage">డేటా &amp; నిల్వ</string>
+    <string name="setting_clear_history">మొత్తం చరిత్రను తొలగించు</string>
+    <string name="setting_clear_history_sub">స్థానిక నిల్వ నుండి అన్ని లెక్కింపులను తొలగించండి</string>
+    <string name="section_about">సమాచారం &amp; చట్టపరమైనవి</string>
+    <string name="about_privacy">గోప్యతా విధానం</string>
+    <string name="about_terms">నిబంధనలు &amp; షరతులు</string>
+    <string name="about_version">వెర్షన్</string>
+    <string name="about_offline_badge">100% ఆఫ్‌లైన్ &amp; సురక్షితం</string>
+    <string name="about_offline_desc">అన్ని లెక్కింపులు మీ పరికరంలోనే భద్రపరచబడతాయి. లాగిన్ అవసరం లేదు.</string>
+
+    <!-- Privacy Policy Dialog -->
+    <string name="privacy_title">గోప్యతా విధానం</string>
+    <string name="privacy_updated">చివరిగా అప్‌డేట్ చేసినది: 2026</string>
+    <string name="privacy_sec1_title">1. సున్నా వ్యక్తిగత డేటా సేకరణ</string>
+    <string name="privacy_sec1_desc">వడ్డీ కాలిక్యులేటర్ మీ గోప్యతకు అత్యంత ప్రాధాన్యత ఇస్తుంది. మేము ఎటువంటి వ్యక్తిగత సమాచారం, ఆర్థిక వివరాలు లేదా పరికర గుర్తింపులను సేకరించము.</string>
+    <string name="privacy_sec2_title">2. 100% ఆఫ్‌లైన్ నిర్మాణం</string>
+    <string name="privacy_sec2_desc">అన్ని లెక్కింపులు మరియు చరిత్ర మీ స్థానిక పరికరంలో మాత్రమే భద్రపరచబడతాయి. మీ పరికరం నుండి ఏ సమాచారమూ బయటకు వెళ్లదు.</string>
+    <string name="privacy_sec3_title">3. సున్నితమైన అనుమతులు అవసరం లేదు</string>
+    <string name="privacy_sec3_desc">ఈ అప్లికేషన్ కెమెరా, పరిచయాలు, SMS, స్టోరేజ్ లేదా లొకేషన్ వంటి ఎటువంటి అనుమతులను అడగదు.</string>
+    <string name="privacy_sec4_title">4. పూర్తి వినియోగదారు నియంత్రణ</string>
+    <string name="privacy_sec4_desc">మీరు ఎప్పుడైనా సెట్టింగ్‌ల నుండి వ్యక్తిగత లెక్కింపులను లేదా మొత్తం చరిత్రను తొలగించవచ్చు.</string>
+
+    <!-- Terms of Use Dialog -->
+    <string name="terms_title">నిబంధనలు &amp; షరతులు</string>
+    <string name="terms_sec1_title">1. సమాచార ప్రయోజనం కొరకు మాత్రమే</string>
+    <string name="terms_sec1_desc">వడ్డీ కాలిక్యులేటర్ సాధారణ వడ్డీ లెక్కింపుల కొరకు రూపొందించబడింది. ఇది చట్టపరమైన లేదా ఆర్థిక సలహా కాదు.</string>
+    <string name="terms_sec2_title">2. లెక్కింపు ఖచ్చితత్వం</string>
+    <string name="terms_sec2_desc">భారతీయ సాంప్రదాయ వడ్డీ గణన పద్ధతుల ప్రకారం ఖచ్చితంగా లెక్కించబడుతుంది. ఆర్థిక లావాదేవీల వద్ద మీ ఒప్పంద నిబంధనలను నిర్ధారించుకోండి.</string>
+    <string name="terms_sec3_title">3. లైసెన్స్</string>
+    <string name="terms_sec3_desc">వ్యక్తిగత మరియు వాణిజ్య వడ్డీ లెక్కింపులకు ఉచితంగా ఉపయోగించుకోవచ్చు.</string>
+
+    <!-- Share template -->
+    <string name="share_header">వడ్డీ లెక్కింపు (VADDI CALCULATION)</string>
+    <string name="share_principal">అసలు మొత్తం: %1$s</string>
+    <string name="share_rate">వడ్డీ రేటు: %1$s</string>
+    <string name="share_vaddi_type">వడ్డీ రకం: %1$s</string>
+    <string name="share_duration">కాలపరిమితి: %1$s</string>
+    <string name="share_monthly_interest">నెలకు వడ్డీ: %1$s</string>
+    <string name="share_yearly_interest">సంవత్సరానికి వడ్డీ: %1$s</string>
+    <string name="share_daily_interest">రోజుకు వడ్డీ: %1$s</string>
+    <string name="share_total_interest">మొత్తం వడ్డీ: %1$s</string>
+    <string name="share_total_amount">మొత్తం సొమ్ము: %1$s</string>
+    <string name="share_footer">వడ్డీ కాలిక్యులేటర్ ద్వారా లెక్కించబడింది (100% ఆఫ్‌లైన్)</string>
+</resources>
