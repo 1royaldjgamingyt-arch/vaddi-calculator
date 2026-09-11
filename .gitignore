@@ -43,7 +43,6 @@ captures/
 # Keystore files
 *.jks
 *.keystore
-!debug.keystore.base64
 
 # Secrets & environment
 .env
@@ -61,4 +60,13 @@ Thumbs.db
 .build-outputs/
 
 vaddi-calculator-upload.jks
-keystore-base64.txt
+
+# Local build/signing helper files
+app/build.gradle.kts.backup
+app/build.gradle.kts.save
+
+# Local build/signing helper files
+perfect-base64.txt
+clear-base64.txt
+app/build.gradle.kts.backup
+app/build.gradle.kts.save
