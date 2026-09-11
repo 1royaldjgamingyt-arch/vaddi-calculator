@@ -11,8 +11,8 @@
 -keepnames class kotlinx.coroutines.CoroutineExceptionHandler {}
 
 # Application Data Models and Entities
--keep class com.vaddicalculator.app.data.local.** { *; }
--keep class com.vaddicalculator.app.domain.model.** { *; }
--keepclassmembers class com.vaddicalculator.app.data.local.** { *; }
--keepclassmembers class com.vaddicalculator.app.domain.model.** { *; }
+-keep class com.vaddicalculatortool.app.data.local.** { *; }
+-keep class com.vaddicalculatortool.app.domain.model.** { *; }
+-keepclassmembers class com.vaddicalculatortool.app.data.local.** { *; }
+-keepclassmembers class com.vaddicalculatortool.app.domain.model.** { *; }
 

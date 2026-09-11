@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-  namespace = "com.vaddicalculatortool.app"
+  namespace = "com.vaddicalculator.app"
   compileSdk  = 36
 
   defaultConfig {
-    applicationId = "com.vaddicalculatortool.app"
+    applicationId = "com.vaddicalculator.app"
     minSdk = 24
     targetSdk = 36
     versionCode = 1
@@ -26,8 +26,7 @@ android {
         storePassword = "android"
         keyAlias = "androiddebugkey"
         keyPassword = "android"
-      }
-    }
+       }
     create("release") {
       val keystoreFilePath = System.getenv("KEYSTORE_FILE") ?: System.getenv("KEYSTORE_PATH")
       val keystorePassword = System.getenv("KEYSTORE_PASSWORD")
